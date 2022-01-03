@@ -92,7 +92,7 @@ Accepted: 3 Jun 2021
 
 8) Coefficient table from statsmodels.api  
 
-![alt text](https://github.com/johnwck/my_ds_work/blob/master/ga_dsif2_capstone_project/coefficient_table_logistic_regression.png)  
+![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/ga_dsif2_capstone_project/coefficient_table_logistic_regression.png)  
 
 <br>  
 <br>  
@@ -121,7 +121,7 @@ Accepted: 3 Jun 2021
 
 10) Shapley values from SHAP  
 
-![alt text](https://github.com/johnwck/my_ds_work/blob/master/ga_dsif2_capstone_project/shapley_k_nearest_neighbours.png)  
+![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/ga_dsif2_capstone_project/shapley_k_nearest_neighbours.png)  
 
 <br>  
 <br>  
@@ -151,7 +151,7 @@ Accepted: 3 Jun 2021
 
 11) Shapley values from SHAP  
 
-![alt text](https://github.com/johnwck/my_ds_work/blob/master/ga_dsif2_capstone_project/shapley_neural_network.png)  
+![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/ga_dsif2_capstone_project/shapley_neural_network.png)  
 
 <br>  
 <br>  
@@ -173,7 +173,7 @@ Accepted: 3 Jun 2021
 
 Model can potentially be deployed in operations as follows  
 
-![alt text](https://github.com/johnwck/my_ds_work/blob/master/ga_dsif2_capstone_project/deployment_workflow.png)  
+![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/ga_dsif2_capstone_project/deployment_workflow.png)  
 
 <br>  
 <br>  
