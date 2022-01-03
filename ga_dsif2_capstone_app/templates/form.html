@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<h2>Predict mortality of patients with heart failure warded in intensive care unit</h2>
+
+</head>
+
+<body>
+
+	<form method="post" action="{{ url_for("result") }}">
+
+		<p>
+			<label>
+				bicarbonate (min=0)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="number" name="bicarbonate" required min="0" step="0.001" />
+			</label><br><br>
+		</p>
+
+		<p>
+			<label>
+				urine_output (min=0)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="number" name="urine_output" required min="0" step="0.001" />
+			</label><br><br>
+		</p>
+
+		<p>
+			<label>
+				urea_nitrogen (min=0)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="number" name="urea_nitrogen" required min="0" step="0.001" />
+			</label><br><br>
+		</p>
+
+		<p>
+			<label>
+				leucocyte (min=0)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="number" name="leucocyte" required min="0" step="0.001" />
+			</label><br><br>
+		</p>
+
+		<p>
+			<label>
+				blood_calcium (min=0)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="number" name="blood_calcium" required min="0" step="0.001" />
+			</label><br><br>
+		</p>
+
+		<p>
+			<label>
+				renal_failure (No=0, Yes=1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="number" name="renal_failure" required min="0" max="1" step="1" />
+			</label><br><br>
+		</p>
+
+		<p>
+			<label>
+				heart_rate (min=0)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="number" name="heart_rate" required min="0" step="0.001" />
+			</label><br><br>
+		</p>
+
+		<p>
+			<label>
+				deficiencyanemias (No=0, Yes=1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="number" name="deficiencyanemias" required min="0" max="1" step="1" />
+			</label><br><br>
+		</p>
+
+		<p>
+			<label>
+				atrialfibrillation (No=0, Yes=1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="number" name="atrialfibrillation" required min="0" max="1" step="1" />
+			</label><br><br>
+		</p>
+
+		<p>
+			<label>
+				sp_o2 (min=0)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input type="number" name="sp_o2" required min="0" step="0.001" />
+			</label><br><br>
+		</p>
+
+		<p><button>Predict mortality</button></p>
+
+	</form>
+
+</body>
+
+</html>
