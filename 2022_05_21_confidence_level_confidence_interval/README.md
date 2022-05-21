@@ -34,7 +34,7 @@ Step 4
 Step 5  
 * Plot a chart of the sample means and sample confidence intervals to visualise the 20 cases.  
 
-**Insert chart demonstration_1.png here**  
+![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_05_21_confidence_level_confidence_interval/demonstration_1.png)  
 This chart visualises the 20 cases outlined in Step 5  
 <br>  
 <br>  
@@ -71,12 +71,12 @@ Step 8
 <br>  
 <br>  
 
-**Insert chart demonstration_2_flow.png here**  
+![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_05_21_confidence_level_confidence_interval/demonstration_2_flow.png)  
 This picture shows how Demonstration 2 was done  
 <br>  
 <br>  
 
-**Insert chart demonstration_2.png here**  
+![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_05_21_confidence_level_confidence_interval/demonstration_2.png)  
 This chart visualises the 999 instances outlined in Step 8  
 <br>  
 <br>  
