@@ -34,7 +34,7 @@ As shown in the chart above, 18 out of 20 (90%) confidence intervals contain the
 <br>  
 <br>  
 
-**Simulation of point (1) with many small sample set**  
+**Simulation of point (1) with many small sample sets**  
 
 1. Randomly take 10 numbers in a sample set.  
 
@@ -46,8 +46,9 @@ As shown in the chart above, 18 out of 20 (90%) confidence intervals contain the
 
 5. From the 1,000 confidence intervals, calculate the proportion of confidence intervals containing the true mean.  
 
-6. Repeat the above for 998 times. You will have 999 proportions.
-Visualise the 999 proportions with a chart as shown below.  
+6. Repeat the above for 998 times. You will have 999 proportions.  
+
+7. Visualise the 999 proportions with a chart as shown below.  
 
 ![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_05_21_confidence_level_confidence_interval/demonstration_2a.png)  
 As shown in the chart above, there is a small gap between the 999 proportions and the true proportion (confidence level).  
@@ -55,7 +56,7 @@ As shown in the chart above, there is a small gap between the 999 proportions an
 <br>  
 <br>  
 
-**Simulation of point (1) with many large sample set**  
+**Simulation of point (1) with many large sample sets**  
 
 1. Randomly take 100 (increase from 10) numbers in a sample set.  
 
