@@ -35,7 +35,7 @@ true_mean <- (sample_minimum+sample_maximum)/2
 
 # ========== assign values to variables ==========
 
-sample_size <- 100
+sample_size <- 10
 
 confidence_level <- 0.95
 
@@ -84,12 +84,12 @@ library('ggplot2')
 ggplot(df_1, aes(x=sample, y=proportion_contains_true_mean, group=1)) +
   geom_line(size=1) +
   geom_hline(aes(yintercept=95), color='purple', size=1) +
-  geom_text(label='true proportion = 95%', y=85, x='500', color='purple', size=10) +
+  geom_text(label='(small) true proportion = 95%', y=85, x='500', color='purple', size=10) +
   theme(axis.text.x=element_blank()) +
   theme(axis.ticks.x=element_blank()) +
   theme(axis.text=element_text(size=15)) +
   theme(axis.title=element_text(size=20)) +
   theme(legend.text=element_text(size=15)) +
   theme(legend.title=element_text(size=15)) +
-  scale_y_continuous(breaks=seq(60, 100, by=2), limits=c(60, 100))
+  scale_y_continuous(breaks=seq(80, 100, by=1), limits=c(80, 100))
 

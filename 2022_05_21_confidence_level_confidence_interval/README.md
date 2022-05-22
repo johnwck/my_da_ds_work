@@ -1,93 +1,95 @@
-**Background**  
+## Confidence level and confidence interval  
 
-* When studying statistics, you will encounter "confidence level" and "confidence interval".  
-* You may wonder what do they mean.  
-* In this post, I will explain their meaning with some demonstrations.  
 <br>  
 <br>  
 
-**Demonstration 1**  
+**In short**  
 
-Step 1  
-* Use the Uniform Distribution.  
-* Set the minimum at 10.  
-* Set the maximum at 20.  
-* Then the true mean will be 15.  
-* **Remember: You will never know the true mean.**  
+1. When you take 100 sample sets from the same population and calculate their confidence intervals of the mean, the proportion of confidence intervals containing the true mean of the population is given by the confidence level.  
 
-Step 2  
-* Randomly sample 10 numbers from this distribution.  
-* Calculate the sample mean.  
-* Calculate the sample standard deviation.  
-* **In this step, you are using the sample mean as a point estimate of the true mean.**  
+2. When you take 1 sample set from the population and calculate its confidence interval of the mean, the probability of the confidence interval containing the true mean of the population is given by the confidence level.  
 
-Step 3  
-* Set the confidence level at 95% (for two-tailed).  
-* Use the (a) confidence level, (b) t-distribution, (c) sample mean, (d) sample standard deviation, and (e) sample size to calculate the upper and lower confidence limits of the sample mean.  
-* **Since you do not know the true standard deviation, you must use the t-distribution and not the standard normal distribution.**  
-* The interval between the upper and lower confidence limits is the confidence interval of the sample mean.  
+3. In real life, you do not know the true mean of the population unless you can take all the samples from the population.  
 
-Step 4  
-* Repeat Step 2 and Step 3 for 19 times.  
-* Then, you should have 20 cases.  
+4. In real life, you may only be able to take 1 sample set instead of many sample sets.  
 
-Step 5  
-* Plot a chart of the sample means and sample confidence intervals to visualise the 20 cases.  
+<br>  
+<br>  
+
+**Simulation of point (1) with small sample set**  
+
+1. Randomly take 10 numbers in a sample set from the population with a Uniform Distribution.  
+
+2. Calculate the sample mean.  
+
+3. Calculate the upper and lower confidence limits of the sample mean using the t-distribution at a confidence level of 95%. The 2 limits will form the confidence interval of the sample mean.  
+
+4. Repeat the above for 19 times.  
+
+5. Visualise the 20 sample means and their confidence intervals with a chart as shown below.  
 
 ![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_05_21_confidence_level_confidence_interval/demonstration_1.png)  
-This chart visualises the 20 cases outlined in Step 5  
+As shown in the chart above, 18 out of 20 (90%) confidence intervals contain the true mean of the population.  
+
 <br>  
 <br>  
 
-**Observation**  
+**Simulation of point (1) with many small sample set**  
 
-* From the chart, you can see that 18 out of 20 (90%) confidence intervals contain the true mean.  
-* In an ideal situation, 95% of the confidence intervals should contain the true mean.  
+1. Randomly take 10 numbers in a sample set.  
+
+2. Calculate the sample mean.  
+
+3. Calculate the confidence interval at a confidence level of 95%.  
+
+4. Repeat the above for 999 times. You will have 1,000 confidence intervals.  
+
+5. From the 1,000 confidence intervals, calculate the proportion of confidence intervals containing the true mean.  
+
+6. Repeat the above for 998 times. You will have 999 proportions.
+Visualise the 999 proportions with a chart as shown below.  
+
+![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_05_21_confidence_level_confidence_interval/demonstration_2a.png)  
+As shown in the chart above, there is a small gap between the 999 proportions and the true proportion (confidence level).  
+
 <br>  
 <br>  
 
-**Meaning of confidence level and confidence interval**  
+**Simulation of point (1) with many large sample set**  
 
-* If you set your confidence level at 95%, then 95 out of 100 confidence intervals should contain the true mean.  
-* In reality, you will not know which 95 out of the 100 confidence intervals will contain the true mean because **you do not know the true mean**.  
-* In real life, the sampling is only done once most of the time.  
-* Hence only 1 confidence interval is calculated.  
-* In this respect, every confidence interval calculated has a 95% confidence level of containing the true mean.
+1. Randomly take 100 (increase from 10) numbers in a sample set.  
+
+2. Calculate the sample mean.  
+
+3. Calculate the confidence interval at a confidence level of 95%.  
+
+4. Repeat the above for 999 times. You will have 1,000 confidence intervals.  
+
+5. From the 1,000 confidence intervals, calculate the proportion of confidence intervals containing the true mean.  
+
+6. Repeat the above for 998 times. You will have 999 proportions.  
+
+7. Visualise the 999 proportions with a chart as shown below.  
+
+![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_05_21_confidence_level_confidence_interval/demonstration_2b.png)  
+As shown in the chart above, there is no gap between the 999 proportions and the true proportion (confidence level).  
+
 <br>  
 <br>  
 
-**Demonstration 2**  
+**In summary**  
 
-Changes made to get near to the ideal situation:  
+1. When you have many sample sets, the confidence level represents the proportion of their confidence intervals containing the true population parameter value.  
 
-Step 6
-* Increase the sample size from 10 to 100 - This is used to calculate 1 confidence interval to determine if it contains or does not contain the true mean.  
+2. When you have 1 sample set, the confidence level represents the probability of the confidence interval containing the true population parameter value.  
 
-Step 7  
-* Increase cases from 20 to 1,000 - This is used to calculate 1 proportion of confidence interval that contains the true mean.  
+3. The larger the sample set, the closer will be the actual probability of the confidence interval containing the true population parameter value to the expected probability.  
 
-Step 8
-*  Repeat Step 6 and Step 7 for 998 instances - This is used to get a long-term trend of the 999 proportions of confidence interval that contains the true mean.  
 <br>  
 <br>  
 
-![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_05_21_confidence_level_confidence_interval/demonstration_2_flow.png)  
-This picture shows how Demonstration 2 was done  
-<br>  
-<br>  
+Hope you enjoy this post. Please give me your valuable feedback for my improvement and progression.
 
-![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_05_21_confidence_level_confidence_interval/demonstration_2.png)  
-This chart visualises the 999 instances outlined in Step 8  
-<br>  
-<br>  
+My knowledge on statistics came from self-study and exploration, together with many wonderful friends who have taught and corrected me.
 
-**Conclusion**  
-
-* Indeed, in a near ideal situation, the confidence level is the proportion of confidence intervals containing the true mean.  
-* Since in real life the sampling is only done once, the confidence level is the probability that the confidence interval contains the true mean.  
-<br>  
-<br>  
-
-**Updated**  
-
-21 May 2022  
+LinkedIn => www.linkedin.com/in/wongchikeongjohn
