@@ -28,7 +28,7 @@
 
 ![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_06_05_confidence_interval_sampling_error/chart_1.png)  
 
-5. As shown in Chart 1 above, the spread of the distribution (sampling error) is wide.  
+5. As shown in the chart above, the spread of the distribution (sampling error) is wide.  
 
 6. 95% of the sample means are located between 13.2 and 16.7. This is the confidence interval at 95% confidence level. Hence sampling error and confidence interval are related.  
 
@@ -47,7 +47,7 @@
 
 ![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_06_05_confidence_interval_sampling_error/chart_2.png)  
 
-5. As shown in Chart 2 above, the sampling error is smaller.  
+5. As shown in the chart above, the sampling error is smaller.  
 
 6. The confidence interval at 95% confidence level is between 14.3 and 15.8 (narrower).  
 
