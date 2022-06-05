@@ -26,7 +26,7 @@
 
 4. Visualise the distribution of the 1,000 sample means with a chart as shown below.  
 
-![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_05_21_confidence_level_confidence_interval/demonstration_1.png)  
+![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_06_05_confidence_interval_sampling_error/chart_1.png)  
 
 5. As shown in Chart 1 above, the spread of the distribution (sampling error) is wide.  
 
@@ -45,7 +45,7 @@
 
 4. Visualise the distribution of the 1,000 sample means with a chart as shown below.  
 
-![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_05_21_confidence_level_confidence_interval/demonstration_2a.png)  
+![alt text](https://github.com/johnwck/my_da_ds_work/blob/master/2022_06_05_confidence_interval_sampling_error/chart_2.png)  
 
 5. As shown in Chart 2 above, the sampling error is smaller.  
 
