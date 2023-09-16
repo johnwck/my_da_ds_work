@@ -5,7 +5,7 @@ To show how to format columns of a dataframe to the correct datatype.
 Analysis can only be done correctly on columns with the correct datatype. Moreover, in order to load data extracted from the database to the data warehouse during the ETL process, columns of a dataframe must have the same datatype as the columns of the table in the data warehouse.  
 
 # From Step 3  
-Columns of a dataframe can have unexpected datatype due to wrong data type and missing data in the cells.  
+Columns of a dataframe can have unexpected datatype due to wrong data type, missing data, or data with space only in the cells.  
 
 # From Step 4 and Step 5  
 Pandas has functions to forcefully correct the datatype of a column to datetime or numeric. However, be aware of the end result after the force correction, for example:  
@@ -20,7 +20,7 @@ Column of float datatype cannot be changed to integer if there are cells with Na
 Hence cells with NaN must be changed to 0 before column of float datatype can be changed to integer.  
 
 # From Step 9  
-It might be useful to convert cells with NaN to "no_value" (or others) in column of string datatype. In this way, it can be filtered off or highlighted in the analysis.  
+It might be useful to convert cells with NaN or space only to "no_value" (or others) in column of string datatype. In this way, it can be filtered off or highlighted in the analysis.  
 
 # End result  
 Before loading the data into the data warehouse, it is worthwhile to check again that the datatype of the columns are correct.  
