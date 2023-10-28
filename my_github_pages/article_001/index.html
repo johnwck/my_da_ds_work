@@ -2,11 +2,12 @@
 
 <style>
     html {width: 70%; margin-left: 10%; margin-right: 10%; margin-top: 5%;}
-    body, h1, h2, p, li {font-family: Arial, Helvetica, sans-serif;}
-    h1 {font-size: xx-large; line-height: 0.7;}
-    h2 {font-size: large; text-decoration: underline; line-height: 0.7;}
-    p {font-size: large; line-height: 0.7;}
-    li {font-size: large; line-height: 1.7;}
+    h1, h2, p, li, .forward {font-family: Arial, Helvetica, sans-serif;}
+    h1 {font-size: xx-large; line-height: normal;}
+    h2 {font-size: large; text-decoration: underline; line-height: normal;}
+    p {font-size: large; line-height: normal;}
+    li {font-size: large; line-height: normal; margin-top: 0.2cm;}
+    .forward {font-size: large; line-height: normal; font-style: italic;}
 </style>
 
 <html>
@@ -29,45 +30,55 @@
         <h1>Another Use of Hierarchical Clustering</h1>
         <br>
         <br>
+        <p><span class="forward">This is based on a real work done by the team and me. I did the data analysis for them.</span></p>
+        <p><span class="forward">Article date: 28 Oct 2023</span></p>
+        <br>
+        <br>
 
         <h2>Background</h2>
         <p>1. &nbspThe team developed a new method to do a task to reduce its duration.</p>
-        <p>2. &nbspAn experiment was designed, planned, and run to qualify the new method.</p>
+        <p>2. &nbspAn experiment was designed, planned, and run to study the new method.</p>
         <p>3. &nbspData on the (a) duration, (b) hour of day, and (c) method were collected for analysis.</p>
         <br>
         <br>
 
-        <h2>Result</h2>
+        <h2>First Result</h2>
         <p>The new method has marginally lower task duration than the control method.</p>
         <img src="https://johnwck.github.io/my_da_ds_work/my_github_pages/article_001/stage_01.png" width="90%">
         <br>
         <br>
 
-        <h2>Next Step - The Why</h2>
+        <h2>Next Step - Understand the Why</h2>
         <p>1. &nbspHierarchical Clustering was used to mine the data for insights.</p>
         <p>2. &nbspThe (a) duration, (b) hour of day, and (c) method were used as input variables to the analysis.</p>
         <br>
         <br>
 
-        <h2>Result</h2>
+        <h2>Second Result</h2>
         <p>1. &nbspThere were 2 distinct clusters in the dendrogram.</p>
-        <img src="https://johnwck.github.io/my_da_ds_work/my_github_pages/article_001/stage_02.png" width="70%">
-        <p>2. &nbspCluster 1 has:</p>
+        &nbsp&nbsp&nbsp<img src="https://johnwck.github.io/my_da_ds_work/my_github_pages/article_001/stage_02.png" width="70%">
+        <p>2. &nbspComparing the input variables against the clusters, it can be seen that Cluster 1 has:</p>
         <ul>
             <li>Marginally lower hour of day</li>
             <li>Significantly lower task duration</li>
             <li>Higher count of new method</li>
         </ul>
-        <img src="https://johnwck.github.io/my_da_ds_work/my_github_pages/article_001/stage_03.png" width="100%">
+        &nbsp&nbsp&nbsp<img src="https://johnwck.github.io/my_da_ds_work/my_github_pages/article_001/stage_03.png" width="95%">
         <p>3. &nbspHypothesis: The new method in the early hours of the day has lower task duration.</p>
         <br>
         <br>
 
-        <h2>Confirmation/Disconfirmation of Hypothesis</h2>
-        <p>1. &nbspIt is true that the task duration of the new method is only lower than the control method between 12 am and 8 am.</p>
-        <img src="https://johnwck.github.io/my_da_ds_work/my_github_pages/article_001/stage_04.png" width="90%">
-        <p>2. &nbspThis insight provided a direction for the team to dive into to understand this phenomenon.</p>
+        <h2>(Dis)Confirmation of Hypothesis</h2>
+        <p>1. &nbspIndeed the task duration of the new method is only lower than the control method between 12 am and 8 am.</p>
+        &nbsp&nbsp&nbsp<img src="https://johnwck.github.io/my_da_ds_work/my_github_pages/article_001/stage_04.png" width="90%">
+        <p>2. &nbspThis insight gave the team a direction to dive in further to understand this phenomenon.</p>
         <br>
+        <br>
+        <br>
+        <br>
+
+        <h2>Keywords</h2>
+        <p>data analytics; data science; python, sklearn, scipy.cluster.hierarchy, hierarchical clustering, understand the why, matplotlib.pyplot, seaborn, boxplot, histplot, dendrogram, barplot, lineplot</p>
         <br>
         <br>
 
