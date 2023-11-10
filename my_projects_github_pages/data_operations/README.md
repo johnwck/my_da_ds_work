@@ -1,19 +1,22 @@
-**Background and Context**
+### **Background and Context**
 
 There are many resources on the extraction of data from the database or data warehouse using SQL. Have you taken a step back to question how data are loaded into them before the extraction? In this step-by-step exercise, I will show you how it is done.
 <br>
+<br>
 
-**Step 1**
+### **Step 1**
 
 You will need to get a database engine. In this exercise, I will use SQLite. The user interface for SQLite is DB Browser. You can now open ***step_01.ipynb*** to go to the URL to download and install DB Browser for SQLite.
 <br>
+<br>
 
-**Step 2**
+### **Step 2**
 
 Following that, a database will need to be created. You can now open ***step_02.ipynb*** to learn how to do so.
 <br>
+<br>
 
-**Step 3**
+### **Step 3**
 
 Inside a database, there can be many tables. For example, you can have a table to store customer transactions and another table to store customer demographics.
 
@@ -28,7 +31,7 @@ Hence after creating a database, you will need to create a table and its fields 
 <br>
 <br>
 
-**Step 4**
+## **Step 4**
 
 In this step, I made the exercise into a more realistic scenario in production.
 
@@ -40,8 +43,9 @@ Sometimes, an integer column of the dataframe may not match an integer field of 
 
 You can now open ***step_04.ipynb*** to learn how to navigate the above situations.
 <br>
+<br>
 
-**Final Note**
+## **Final Note**
 
 Different database engines have different ways of handling data and its datatype. For example, date in SQLite must be TEXT while date in PostgreSQL can be TIMESTAMP.
 
@@ -50,7 +54,8 @@ In SQLite, updating data in the database can be done using 'REPLACE' without par
 Updating data in the database can only be done with a PRIMARY KEY specified. This concept was introduced in ***step_03.ipynb*** and ***step_04.ipynb***.
 <br>
 <br>
-
+<br>
+<br>
 Hope you find this exercise useful. Feel free to connect with me in LinkedIn. Have a good day!
 
 10 Nov 2023
