@@ -44,13 +44,12 @@ Hence after creating a database, you will need to create a table and its fields 
 <img src='step_03b.PNG' height='200'>
 <br>
 <br>
-<br>
 
 #### <u>**Step 4**</u>
 
 In this step, I made the exercise into a more realistic scenario like in production.
 
-In production, your data to be loaded is usually in the form of a dataframe. If the datatype of the (a) dataframe and the (b) fields of the table do not match, data will not be loaded. For example, date can be of datatype date only, date with time, or string.
+In production, your data to be loaded is usually in the form of a dataframe. If the datatype of the (a) columns of the dataframe and the (b) fields of the table do not match, data will not be loaded. For example, date can be of datatype date only, date with time, or string.
 
 One also needs to know how to format the dataframe for the data to be loaded. Should the dataframe be in its original form, transformed into a dictionary, list of lists, or list of tuples?
 
