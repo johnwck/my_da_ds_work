@@ -1,22 +1,28 @@
-## **Background and Context**
-
-There are many resources on the extraction of data from the database or data warehouse using SQL. Have you taken a step back to question how data are loaded into them before the extraction? In this step-by-step exercise, I will show you how it is done.
-<br>
+## **Data Operations**
 <br>
 
-## **Step 1**
+#### <u>**Background and Context**</u>
 
-You will need to get a database engine. In this exercise, I will use SQLite. The user interface for SQLite is DB Browser. You can now open ***step_01.ipynb*** to go to the URL to download and install DB Browser for SQLite.
+There are many resources on the extraction of data from the database or data warehouse using SQL. In this step-by-step exercise, I will demonstrate how data are loaded into the database or data warehouse for extraction.
+<br>
 <br>
 <br>
 
-## **Step 2**
+#### <u>**Step 1**</u>
+
+You will need to get a database engine. In this exercise, I will use SQLite. The user interface for SQLite is DB Browser <img src='db_browser.svg' height='40'>. You can now open ***step_01.ipynb*** to go to the URL to download and install DB Browser for SQLite.
+<br>
+<br>
+<br>
+
+#### <u>**Step 2**</u>
 
 Following that, a database will need to be created. You can now open ***step_02.ipynb*** to learn how to do so.
 <br>
 <br>
+<br>
 
-## **Step 3**
+#### <u>**Step 3**</u>
 
 Inside a database, there can be many tables. For example, you can have a table to store customer transactions and another table to store customer demographics.
 
@@ -29,10 +35,20 @@ Hence after creating a database, you will need to create a table and its fields 
 * Insert new data and update existing data
 * Close connection to the database
 <br>
+<br>
 
-## **Step 4**
+<img src='step_03a.PNG' height='180'>
+<br>
+<br>
 
-In this step, I made the exercise into a more realistic scenario in production.
+<img src='step_03b.PNG' height='200'>
+<br>
+<br>
+<br>
+
+#### <u>**Step 4**</u>
+
+In this step, I made the exercise into a more realistic scenario like in production.
 
 In production, your data to be loaded is usually in the form of a dataframe. If the datatype of the (a) dataframe and the (b) fields of the table do not match, data will not be loaded. For example, date can be of datatype date only, date with time, or string.
 
@@ -43,8 +59,9 @@ Sometimes, an integer column of the dataframe may not match an integer field of 
 You can now open ***step_04.ipynb*** to learn how to navigate the above situations.
 <br>
 <br>
+<br>
 
-## **Final Note**
+#### <u>**Final Note**</u>
 
 Different database engines have different ways of handling data and its datatype. For example, date in SQLite must be TEXT while date in PostgreSQL can be TIMESTAMP.
 
@@ -54,7 +71,9 @@ Updating data in the database can only be done with a PRIMARY KEY specified. Thi
 <br>
 <br>
 <br>
-<br>
+
 Hope you find this exercise useful. Feel free to connect with me in LinkedIn. Have a good day!
 
-10 Nov 2023
+14 Nov 2023
+
+John Wong &nbsp;&nbsp; [<img src='linkedin.png' height="40"/>](https://www.linkedin.com/in/wongchikeongjohn)
