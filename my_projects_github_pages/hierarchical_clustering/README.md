@@ -14,7 +14,7 @@ Being a consultant and trainer in quality improvement, I will summarise the conc
 
 The Model for Improvement can be used as a guide for quality improvement work.
 
-<img src='model_for_improvement.png' height='250'>
+<img src='model_for_improvement.png' height='400'>
 <br>
 <br>
 
