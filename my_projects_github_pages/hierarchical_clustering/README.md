@@ -42,7 +42,7 @@ The team developed a new method to reduce the duration of a task.
 
 Using the PDSA Cycle, the team found that the new method did not significantly reduce the duration.
 
-<img src='phase_01.PNG'>
+<img src='phase_01.png'>
 <br>
 <br>
 
@@ -75,7 +75,7 @@ More information can be found here >>> https://www.mygreatlearning.com/blog/hier
 
 With the dendrogram produced as shown below, I have cut off at 2 clusters.
 
-<img src='phase_02.PNG'>
+<img src='phase_02.png'>
 
 More information can be found here >>> https://www.displayr.com/what-is-dendrogram/
 <br>
@@ -87,7 +87,7 @@ The clusters formed were added back to the data. The objective is to study the c
 
 As shown in the charts below, Cluster 1 has earlier hours and shorter duration compared to Cluster 0. Both clusters have comparable count of new and control methods.
 
-<img src='phase_03.PNG'>
+<img src='phase_03.png'>
 <br>
 <br>
 
@@ -97,7 +97,7 @@ This gave me the clue to plot duration throughout the hour of day and, at the sa
 
 ## <u>**Phase 4**</u>
 
-<img src='phase_04.PNG'>
+<img src='phase_04.png'>
 <br>
 <br>
 
