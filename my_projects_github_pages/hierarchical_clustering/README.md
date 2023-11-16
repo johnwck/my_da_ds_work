@@ -3,7 +3,7 @@
 
 ## <u>**Quality**</u>
 
-Being a trainer in quality improvement, I will summarise the concepts of quality from first principles as follows:
+Being a consultant and trainer in quality improvement, I will summarise the concepts of quality from first principles as follows:
 * Quality is a comparison between the actual and expected performances.
 * Poor quality is when the actual performance is worse than the expected.
 * Quality improvement is to change the actual so that its performance is better than the expected.
