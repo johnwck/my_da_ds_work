@@ -34,8 +34,8 @@ For example, if "data" and "science" appear together frequently (high co-occurre
 ## <u>**Words, Numbers, and Embedding**</u>
 
 Machine learning models can only accept numbers, not words, as input. Hence words have to be converted to vectors of numbers (ID, count).
-
-One of the dimension of the vector is the ID of a word. Every word has its own ID. Another dimension of the vector is the count of the occurrences of the word in the feedback. Together, they form a vector.
+* One of the dimension of the vector is the ID of a word. Every word has its own ID.
+* Another dimension of the vector is the count of the occurrences of the word in the feedback. Together, they form a vector.
 
 The conversion from words to vectors of numbers is known as embedding.
 
@@ -53,7 +53,7 @@ https://cdn.openai.com/research-covers/language-unsupervised/language_understand
 <img src='model_t.png'>
 
 Source:
-https://www.turing.com/kb/guide-on-word-embeddings-in-nlp
+https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf
 <br>
 <br>
 
@@ -61,14 +61,14 @@ https://www.turing.com/kb/guide-on-word-embeddings-in-nlp
 
 #### <u>**Step 1: Documents**</u>
 
-You can now open ***step_01_exercise_bow.ipynb*** to follow along. This Jupyter Notebook contains the basics to build the foundation in LSI.
+You can now open ***step_01_exercise_bow.ipynb*** to follow along. This Jupyter Notebook contains the basics to build the foundation.
 
 I have synthesized data in a Comma-Separated Values (CSV) file.
-<img src='step_01a.png'>
+<img src='step_01a.PNG'>
 <br>
 
 In data cleaning, I have removed non-alphanumeric characters and changed all characters to lower case.
-<img src='step_01b.png'>
+<img src='step_01b.PNG'>
 <br>
 
 #### <u>**Step 2: Tokens**</u>
@@ -80,7 +80,7 @@ In this step, we will work on the dimension of the vector regarding the ID of a 
 A document can be a conversation, feedback, review, book, or article. A token can be an individual word or contiguous words in a document. Now, we will change the terminology from ID of a word to ID of a token. In this work, I have used individual words as tokens.
 
 From documents of individual words, I have converted them into a lists of tokens. However, I have excluded stopwords from the lists of tokens. Note that the tokens are still words, not numbers, yet.
-<img src='step_01c.png'>
+<img src='step_01c.PNG'>
 <br>
 
 #### <u>**Step 3: Bag of Words Vector**</u>
@@ -88,17 +88,17 @@ From documents of individual words, I have converted them into a lists of tokens
 In this step, we will work on the dimension of the vector regarding the count of the occurrences of the token in the documents.
 
 If a token only appears once in all the documents, we can removed it from the training of our model.
-<img src='step_01d.png'>
+<img src='step_01d.PNG'>
 <br>
 
 The "dictionary" method will be used to track the ID of the remaining tokens.
-<img src='step_01e.png'>
+<img src='step_01e.PNG'>
 
 The "doc2bow" method will be used to convert the remaining tokens to the Bag of Words (BOW) vectors.
-<img src='step_01f.png'>
+<img src='step_01f.PNG'>
 
-The BOW vectors contains the token ID and its occurrences in the documents.
-<img src='step_01g.png'>
+The BOW vectors will now contain the token ID and its occurrences in the documents.
+<img src='step_01g.PNG'>
 
 At this stage, input embedding is completed.
 <br>
@@ -106,7 +106,7 @@ At this stage, input embedding is completed.
 #### <u>**Step 4: Latent Semantic Indexing**</u>
 
 The following code will enable you to extract the different number of topics.
-<img src='step_01h.png'>
+<img src='step_01h.PNG'>
 * num_topics = Set the number of topics you want to extract.
 * random_seed = Set a number to have repeatable and reproducible results.
 * power_iters = Set a higher number to get higher accuracy.
@@ -114,14 +114,14 @@ The following code will enable you to extract the different number of topics.
 <br>
 
 The following code will enable you to determine the coherence score on the different number of topics you have extracted.
-<img src='step_01i.png'>
+<img src='step_01i.PNG'>
 * coherence = "u_mass" is used. It will changed with the number of topics you have extracted.
 <br>
 <br>
 
 You can now open ***step_02_real_bow.ipynb*** to follow along. This Jupyter Notebook contains real data running through the same steps as above. You will notice a significant difference in the coherence score with three topics extracted.
 
-#### <u>**Step 5: Topics of Current Documents**</u>
+#### <u>**Step 5: Topics of Current Documents (Train Model to Identify)**</u>
 
 You may wonder how to determine the optimal number of topics to be extracted if there are so many feedback that you do not have the time to read through all of them.
 
@@ -131,7 +131,7 @@ You can now open ***step_03_real_bow_topic_identification.ipynb*** to follow alo
 Getting the optimal number of topics to be extracted is equivalent to training the model to classify feedback receive in the future.
 <br>
 
-#### <u>**Step 6: Topics of Future Documents (Classification)**</u>
+#### <u>**Step 6: Topics of Future Documents (Use Trained Model to Classify)**</u>
 
 Now that you have trained the model, it is time to apply the model to classify feedback receive in the future.
 
