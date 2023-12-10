@@ -139,7 +139,7 @@ Getting the optimal number of topics to be extracted is equivalent to training t
 Now that the model is trained, it will be used to classify feedback to be received in the future.
 
 You can now open ***step_04_real_bow_topic_classification.ipynb*** to follow along. This Jupyter Notebook contains the method to train the model with three topics to classify feedback to be received in the future.
-<img src='step_04.png'>
+<img src='step_04.PNG'>
 <br>
 <br>
 <br>
