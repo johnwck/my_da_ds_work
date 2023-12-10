@@ -9,7 +9,7 @@ If you work in customer service or marketing, you will need to get feedback from
 
 ## <u>**Question**</u>
 
-On some occasions, you will receive lots of feedback. However, you may not have the time to read through all of them. In this situation, you may not have an accurate picture on the topics in the feedback. What can you do to read through as many of them as possible in the shortest possible time?
+On some occasions, you will receive lots of feedback. However, you may not have the time to read through all of them. In this situation, you may not have an accurate picture on the topics. What can you do to read through as many of the feedback as possible in the shortest possible time?
 <br>
 <br>
 
@@ -21,21 +21,22 @@ You can apply Latent Semantic Indexing on all the feedback.
 
 ## <u>**Latent Semantic Indexing (LSI)**</u>
 
-It is an unsupervised machine learning method to identify the topics in the feedback based on the co-occurrence of words in them. Unsupervised because you do not need to read through the feedback and put a topic (label) as the target to those that you have read for use to train a model.
+It is an unsupervised machine learning method to identify the topics in the feedback based on the co-occurrences of words in them. Unsupervised because you do not need to read through the feedback and put a topic (label) as the target to train a model.
 <br>
 <br>
 
 ## <u>**Topic**</u>
 
-For example, if "data" and "science" appear together frequently (high co-occurrence), the topic is on "data science". If "data", "science", "complicated", "statistics", and "mathematics" appear together frequently, the topic is most likely on "the difficulty of learning data science".
+For example, if words like "data" and "science" appear together frequently (high co-occurrence), the topic is on "data science". If words like "data", "science", "complicated", "statistics", and "mathematics" appear together frequently, the topic is most likely on "the difficulty of learning data science".
 <br>
 <br>
 
 ## <u>**Words, Numbers, and Embedding**</u>
 
-Machine learning models can only accept numbers, not words, as input. Hence words have to be converted to vectors of numbers (ID, count).
+Machine learning models can only accept numbers, not words, as input. Hence words have to be converted to vectors of numbers.
 * One of the dimension of the vector is the ID of a word. Every word has its own ID.
-* Another dimension of the vector is the count of the occurrences of the word in the feedback. Together, they form a vector.
+* Another dimension of the vector is the count of the occurrences of the word.
+* Together, they form a vector of numbers (ID, count of occurrences).
 
 The conversion from words to vectors of numbers is known as embedding.
 
@@ -43,14 +44,14 @@ In the Transformer model by Google and Generative Pre-Trained Transformer (GPT) 
 <br>
 <br>
 
-<img src='model_gpt.png'>
+GPT model &nbsp;&nbsp;&nbsp; <img src='model_gpt.png'>
 
 Source:
 https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf
 <br>
 <br>
 
-<img src='model_t.png'>
+Transformer model &nbsp;&nbsp;&nbsp; <img src='model_t.png'>
 
 Source:
 https://papers.neurips.cc/paper/7181-attention-is-all-you-need.pdf
@@ -75,19 +76,19 @@ In data cleaning, I have removed non-alphanumeric characters and changed all cha
 
 As mentioned above, words have to be converted to vectors of numbers as input to machine learning models.
 
-In this step, we will work on the dimension of the vector regarding the ID of a word.
+In this step, I will work on the "ID" dimension of the vector.
 
 A document can be a conversation, feedback, review, book, or article. A token can be an individual word or contiguous words in a document. Now, we will change the terminology from ID of a word to ID of a token. In this work, I have used individual words as tokens.
 
-From documents of individual words, I have converted them into a lists of tokens. However, I have excluded stopwords from the lists of tokens. Note that the tokens are still words, not numbers, yet.
+From documents of individual words, I have converted them into lists of tokens. However, I have excluded stopwords from the lists of tokens. Note that the tokens are still words, not numbers, yet.
 <img src='step_01c.PNG'>
 <br>
 
 #### <u>**Step 3: Bag of Words Vector**</u>
 
-In this step, we will work on the dimension of the vector regarding the count of the occurrences of the token in the documents.
+In this step, I will work on the "count of occurrences" dimension of the vector.
 
-If a token only appears once in all the documents, we can removed it from the training of our model.
+If a token appears only once in all the documents, I will remove it from the training of the model.
 <img src='step_01d.PNG'>
 <br>
 
@@ -97,7 +98,7 @@ The "dictionary" method will be used to track the ID of the remaining tokens.
 The "doc2bow" method will be used to convert the remaining tokens to the Bag of Words (BOW) vectors.
 <img src='step_01f.PNG'>
 
-The BOW vectors will now contain the token ID and its occurrences in the documents.
+The BOW vectors will now contain the token ID and count of its occurrences.
 <img src='step_01g.PNG'>
 
 At this stage, input embedding is completed.
@@ -105,17 +106,17 @@ At this stage, input embedding is completed.
 
 #### <u>**Step 4: Latent Semantic Indexing**</u>
 
-The following code will enable you to extract the different number of topics.
+I have used the following code to extract the different number of topics.
 <img src='step_01h.PNG'>
-* num_topics = Set the number of topics you want to extract.
+* num_topics = Set the number of topics to extract.
 * random_seed = Set a number to have repeatable and reproducible results.
 * power_iters = Set a higher number to get higher accuracy.
 <br>
 <br>
 
-The following code will enable you to determine the coherence score on the different number of topics you have extracted.
+I have used the following code to determine the coherence score on the different number of topics extracted.
 <img src='step_01i.PNG'>
-* coherence = "u_mass" is used. It will changed with the number of topics you have extracted.
+* coherence = "u_mass" is used. It will changed with the number of topics extracted.
 <br>
 <br>
 
@@ -123,19 +124,21 @@ You can now open ***step_02_real_bow.ipynb*** to follow along. This Jupyter Note
 
 #### <u>**Step 5: Topics of Current Documents (Train Model to Identify)**</u>
 
-You may wonder how to determine the optimal number of topics to be extracted if there are so many feedback that you do not have the time to read through all of them.
+You may wonder how to determine the optimal number of topics to be extracted.
 
-You can now open ***step_03_real_bow_topic_identification.ipynb*** to follow along. This Jupyter Notebook contains the method to determine the optimal number of topics to be extracted. Essentially, you can plot the coherence score versus the number of topics. The number of topics corresponding to the highest coherence score should be the optimal number of topics to be extracted.
+You can now open ***step_03_real_bow_topic_identification.ipynb*** to follow along. This Jupyter Notebook contains the method to determine the optimal number of topics to be extracted.
+
+Essentially, I plotted the coherence score versus the number of topics extracted. The number of topics corresponding to the highest coherence score should be the optimal number of topics to be extracted. I have also printed out the topics to check them qualitatively.
 <img src='step_03.png'>
 
-Getting the optimal number of topics to be extracted is equivalent to training the model to classify feedback receive in the future.
+Getting the optimal number of topics to be extracted is equivalent to training the model to classify feedback.
 <br>
 
 #### <u>**Step 6: Topics of Future Documents (Use Trained Model to Classify)**</u>
 
-Now that you have trained the model, it is time to apply the model to classify feedback receive in the future.
+Now that the model is trained, it will be used to classify feedback to be received in the future.
 
-You can now open ***step_04_real_bow_topic_classification.ipynb*** to follow along. This Jupyter Notebook contains the method to used the trained model with three topics to classify feedback receive in the future.
+You can now open ***step_04_real_bow_topic_classification.ipynb*** to follow along. This Jupyter Notebook contains the method to train the model with three topics to classify feedback to be received in the future.
 <img src='step_04.png'>
 <br>
 <br>
