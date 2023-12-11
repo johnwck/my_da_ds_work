@@ -10,7 +10,7 @@ I was also fortunate to be given opportunities to work in support accounting (fi
 
 Subsequently, I pivot my career to healthcare, where I was a Quality Improvement Specialist (ASQ certified Six Sigma Green Belt). In additional to Six Sigma, I also learned and applied Lean and *[Model for Improvement](https://www.ihi.org/resources/how-to-improve)* methodologies to make processes in the hospitals faster, cheaper, better, and safer.
 
-In the words of *[William Thomson, Lord Kelvin]('https://physicsworld.com/a/in-praise-of-lord-kelvin/#:~:text=%E2%80%9CWhen%20you%20are%20face%20to,%2C%20you%20cannot%20improve%20it.%E2%80%9D')*:
+In the words of *[William Thomson, Lord Kelvin]('https://physicsworld.com/a/in-praise-of-lord-kelvin/')*:
 
 > “When you can measure what you are speaking about, and express it in numbers, you know something about it; but when you cannot measure it, when you cannot express it in numbers, your knowledge is of a meagre and unsatisfactory kind.”
 
