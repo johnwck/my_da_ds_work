@@ -1,4 +1,4 @@
-# **Training of Model to Identify and Classify Topics in Documents**
+# **Identify Topics in Documents and Classify Documents to Topics Identified**
 <br>
 
 ## <u>**Context**</u>
@@ -122,7 +122,7 @@ I have used the following code to determine the coherence score on the different
 
 You can now open ***step_02_real_bow.ipynb*** to follow along. This Jupyter Notebook contains real data running through the same steps as above. You will notice a significant difference in the coherence score with three topics extracted.
 
-#### <u>**Step 5: Topics of Current Documents (Train Model to Identify)**</u>
+#### <u>**Step 5: Current Documents (Identify Topics)**</u>
 
 You may wonder how to determine the optimal number of topics to be extracted.
 
@@ -134,9 +134,9 @@ Essentially, I plotted the coherence score versus the number of topics extracted
 Getting the optimal number of topics to be extracted is equivalent to training the model to classify feedback.
 <br>
 
-#### <u>**Step 6: Topics of Future Documents (Use Trained Model to Classify)**</u>
+#### <u>**Step 6: Future Documents (Classify to Topics Identified)**</u>
 
-Now that the model is trained, it will be used to classify feedback to be received in the future.
+Now that the model is trained, it will be used to classify future feedback to the topics identified.
 
 You can now open ***step_04_real_bow_topic_classification.ipynb*** to follow along. This Jupyter Notebook contains the method to train the model with three topics to classify feedback to be received in the future.
 <img src='step_04.PNG'>
