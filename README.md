@@ -6,11 +6,14 @@
 
 I started working in manufacturing as a product engineer. In this role, I learned and applied many statistical data analysis methods like reliability analysis, survival analysis, statistical process control, design of experiment with analysis of variance, hypothesis testing, acceptance sampling, measurement system analysis, and others.
 <br>
+<br>
 
 I was also fortunate to be given opportunities to work in support accounting (finance), spare part planning and stocking (logistics), end-to-end operations management (procurement, purchase, inventory, cost, production, quality assurance, shipment, failure analysis, and compliance), and vendor management in manufacturing. They have given me experience in the value chain of a company.
 <br>
+<br>
 
 Subsequently, I pivot my career to healthcare, where I was a Quality Improvement Specialist (ASQ certified Six Sigma Green Belt). In additional to Six Sigma, I also learned and applied Lean and *[Model for Improvement](https://www.ihi.org/resources/how-to-improve)* methodologies to make processes in the hospitals faster, cheaper, better, and safer.
+<br>
 <br>
 
 In the words of *[William Thomson, Lord Kelvin](https://physicsworld.com/a/in-praise-of-lord-kelvin/)*:
@@ -22,6 +25,7 @@ In the words of *[William Thomson, Lord Kelvin](https://physicsworld.com/a/in-pr
 <br>
 
 The first quote above reminded me data is crucial to Quality Improvement. Hence, I pivot my career to data analytics and data science next by completing an Advanced Diploma in Enterprise Business Analytics and Certificate in Data Science Immersive (boot camp) with *[General Assembly](https://generalassemb.ly/)*.
+<br>
 <br>
 
 The second quote above reminded me not to put the cart before the horse. Before designing and deploying solutions in Quality Improvement, I should find out what happened (descriptive analytics), why did it happen (diagnostic analytics), what might happen (predictive analytics), what should happen (prescriptive analytics) given why did it happen and what might happen. What should happen are the solutions.
