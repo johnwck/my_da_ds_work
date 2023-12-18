@@ -122,13 +122,13 @@ Answer: Here are the answers to the question above:
 These were the behaviours observed:
 * For larger tensor size alone and deeper model alone, the difference in training duration change between CPU and GPU are not significantly different.
 
-<img src='training_duration_2.png' height="275"> &nbsp;&nbsp;&nbsp; <img src='training_duration_3.png' height="275">
+<img src='training_duration_2.png' height="250"> &nbsp;&nbsp;&nbsp; <img src='training_duration_3.png' height="250">
 <br>
 <br>
 
 * However, the difference in training duration change is significant for larger node size interacting with deeper model.
 
-<img src='training_duration_4.png' height="275"> &nbsp;&nbsp;&nbsp; <img src='training_duration_5.png' height="275">
+<img src='training_duration_4.png' height="250"> &nbsp;&nbsp;&nbsp; <img src='training_duration_5.png' height="250">
 <br>
 <br>
 
