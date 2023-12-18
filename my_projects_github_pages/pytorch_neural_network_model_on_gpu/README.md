@@ -84,7 +84,7 @@ You can now open ***dataframe_tensor.ipynb*** to learn how to convert a datafram
 
 You can push the tensor and NN model to the GPU for training as follows:
 
-<img src='push_to_gpu1.PNG' height="400"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='push_to_gpu2.PNG' height="400">
+<img src='push_to_gpu1.PNG' height="450"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='push_to_gpu2.PNG' height="450">
 <br>
 <br>
 
@@ -121,12 +121,14 @@ Answer: Here are the answers to the question above:
 
 These were the behaviours observed:
 * For larger tensor size alone and deeper model alone, the difference in training duration change between CPU and GPU are not significantly different.
-<img src='training_duration_2.png' height="250"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='training_duration_3.png' height="250">
+
+<img src='training_duration_2.png' height="275"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='training_duration_3.png' height="275">
 <br>
 <br>
 
 * However, the difference in training duration change is significant for larger node size interacting with deeper model.
-<img src='training_duration_4.png' height="250"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='training_duration_5.png' height="250">
+
+<img src='training_duration_4.png' height="275"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='training_duration_5.png' height="275">
 <br>
 <br>
 
@@ -154,6 +156,7 @@ https://machinelearningmastery.com/choose-an-activation-function-for-deep-learni
 
 Using neural nets to recognize handwritten digits:  
 http://neuralnetworksanddeeplearning.com/chap1.html
+
 Here, you will learn why a hidden layer is coded as follows:
 
 <img src='hidden_layer_definition.PNG'>
@@ -162,6 +165,7 @@ Here, you will learn why a hidden layer is coded as follows:
 
 TRAINING WITH PYTORCH:  
 https://pytorch.org/tutorials/beginner/introyt/trainingyt.html
+
 Here, you will learn about the training loop:
 
 <img src='training_loop.PNG' height="300">
