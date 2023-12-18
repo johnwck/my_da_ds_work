@@ -28,8 +28,8 @@ PyTorch can be installed from this Nvidia's website >>> https://pytorch.org/get-
 <br>
 
 Select the appropriate options for you.
-
 For me, I have selected these options:
+
 <img src='pytorch_installation.png' height="300">
 <br>
 <br>
@@ -51,7 +51,7 @@ Things to note:
 <br>
 
 You can use these Python codes to check that PyTorch has been installed correctly:
-<img src='check_gpu.PNG' height="300">
+<img src='check_gpu.PNG' height="350">
 <br>
 <br>
 
@@ -84,7 +84,7 @@ You can now open ***dataframe_tensor.ipynb*** to learn how to convert a datafram
 
 You can push the tensor and NN model to the GPU for training as follows:
 
-<img src='push_to_gpu1.PNG' height="300"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='push_to_gpu2.PNG' height="300">
+<img src='push_to_gpu1.PNG' height="400"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='push_to_gpu2.PNG' height="400">
 <br>
 <br>
 
@@ -114,18 +114,19 @@ For the comparative study, the followings were done as experimental controls:
 <br>
 
 Answer: Here are the answers to the question above:
-<img src='training_duration_1.png' height="300">
+
+<img src='training_duration_1.png' height="400">
 <br>
 <br>
 
 These were the behaviours observed:
 * For larger tensor size alone and deeper model alone, the difference in training duration change between CPU and GPU are not significantly different.
-<img src='training_duration_2.png' height="300"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='training_duration_3.png' height="300">
+<img src='training_duration_2.png' height="250"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='training_duration_3.png' height="250">
 <br>
 <br>
 
 * However, the difference in training duration change is significant for larger node size interacting with deeper model.
-<img src='training_duration_4.png' height="300"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='training_duration_5.png' height="300">
+<img src='training_duration_4.png' height="250"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='training_duration_5.png' height="250">
 <br>
 <br>
 
@@ -153,17 +154,16 @@ https://machinelearningmastery.com/choose-an-activation-function-for-deep-learni
 
 Using neural nets to recognize handwritten digits:  
 http://neuralnetworksanddeeplearning.com/chap1.html
-
 Here, you will learn why a hidden layer is coded as follows:
+
 <img src='hidden_layer_definition.PNG'>
 <br>
 <br>
 
 TRAINING WITH PYTORCH:  
 https://pytorch.org/tutorials/beginner/introyt/trainingyt.html
-<br>
-
 Here, you will learn about the training loop:
+
 <img src='training_loop.PNG' height="300">
 <br>
 <br>
