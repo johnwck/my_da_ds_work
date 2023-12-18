@@ -75,7 +75,7 @@ You should go through the following tutorials from this Nvidia's website >>> htt
 
 You can now open ***dataframe_tensor.ipynb*** to learn how to convert a dataframe to a tensor.
 
-<img src='dataframe_tensor1.PNG' height="300"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='dataframe_tensor2.PNG' height="300">
+<img src='dataframe_tensor1.PNG' height="300"> &nbsp;&nbsp;&nbsp; <img src='dataframe_tensor2.PNG' height="300">
 <br>
 <br>
 
@@ -84,7 +84,7 @@ You can now open ***dataframe_tensor.ipynb*** to learn how to convert a datafram
 
 You can push the tensor and NN model to the GPU for training as follows:
 
-<img src='push_to_gpu1.PNG' height="450"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='push_to_gpu2.PNG' height="450">
+<img src='push_to_gpu1.PNG' height="475"> &nbsp;&nbsp;&nbsp; <img src='push_to_gpu2.PNG' height="475">
 <br>
 <br>
 
@@ -122,13 +122,13 @@ Answer: Here are the answers to the question above:
 These were the behaviours observed:
 * For larger tensor size alone and deeper model alone, the difference in training duration change between CPU and GPU are not significantly different.
 
-<img src='training_duration_2.png' height="275"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='training_duration_3.png' height="275">
+<img src='training_duration_2.png' height="275"> &nbsp;&nbsp;&nbsp; <img src='training_duration_3.png' height="275">
 <br>
 <br>
 
 * However, the difference in training duration change is significant for larger node size interacting with deeper model.
 
-<img src='training_duration_4.png' height="275"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src='training_duration_5.png' height="275">
+<img src='training_duration_4.png' height="275"> &nbsp;&nbsp;&nbsp; <img src='training_duration_5.png' height="275">
 <br>
 <br>
 
