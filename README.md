@@ -53,6 +53,13 @@ The second quote above reminded me not to put the cart before the horse. Before 
 * Topics identification in current documents
 * Classify future documents to topics identified
 <br>
+
+[Exploration on Behaviour of Neural Network Model using PyTorch on Graphics Processing Unit](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/pytorch_neural_network_model_on_gpu)
+* Installing and testing PyTorch
+* From Pandas dataframe to PyTorch tensor
+* Pushing tensor and Neural Network (NN) model to GPU
+* Duration of training NN model on GPU and CPU
+<br>
 <br>
 <br>
 <br>
