@@ -23,6 +23,7 @@ In the words of *[William Thomson, Lord Kelvin](https://physicsworld.com/a/in-pr
 > “I am never content until I have constructed a mechanical model of the subject I am studying. If I succeed in making one, I understand, otherwise I do not.”
 
 <br>
+<br>
 
 The first quote above reminded me data is crucial to Quality Improvement. Hence, I pivot my career to data analytics and data science next by completing an Advanced Diploma in Enterprise Business Analytics and Certificate in Data Science Immersive (boot camp) with *[General Assembly](https://generalassemb.ly/)*.
 <br>
@@ -67,4 +68,5 @@ The second quote above reminded me not to put the cart before the horse. Before 
 Hope you find these works useful. Feel free to connect with me in LinkedIn. Have a good day!
 <br>
 
-John Wong &nbsp;&nbsp; [<img src='linkedin.png' height="40"/>](https://www.linkedin.com/in/wongchikeongjohn)
+John Wong &nbsp;&nbsp; [<img src='linkedin.png' height="40">](https://www.linkedin.com/in/wongchikeongjohn)
+<br>
