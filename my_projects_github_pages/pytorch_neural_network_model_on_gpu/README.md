@@ -1,4 +1,4 @@
-# **Exploration on Behaviour of Neural Network Model using PyTorch on Graphics Processing Unit**
+# **Exploration of Neural Network Model using PyTorch on Graphics Processing Unit**
 <br>
 
 ## <u>**Context**</u>
@@ -28,6 +28,7 @@ PyTorch can be installed from this Nvidia's website >>> https://pytorch.org/get-
 <br>
 
 Select the appropriate options for you.
+
 For me, I have selected these options:
 
 <img src='pytorch_installation.png' height="300">
@@ -68,7 +69,6 @@ You should go through the following tutorials from this Nvidia's website >>> htt
 * Datasets and DataLoaders.
 * Build Model.
 <br>
-<br>
 
 ## <u>**Tensor**</u>
 <br>
@@ -84,7 +84,7 @@ You can now open ***dataframe_tensor.ipynb*** to learn how to convert a datafram
 
 You can push the tensor and NN model to the GPU for training as follows:
 
-<img src='push_to_gpu1.PNG' height="475"> &nbsp;&nbsp;&nbsp; <img src='push_to_gpu2.PNG' height="475">
+<img src='push_to_gpu1.PNG' height="500"> &nbsp; <img src='push_to_gpu2.PNG' height="500">
 <br>
 <br>
 
@@ -101,7 +101,6 @@ The computational load placed on the CPU or GPU can be affected by the following
 * Number of hidden layers (tensor operations).
 * Size of Random Access Memory (RAM) of CPU (32 Gb in my case) and GPU (6 Gb in my case).
 <br>
-<br>
 
 For the comparative study, the followings were done as experimental controls:
 * Random seeds for random numbers and PyTorch algorithms were fixed.
@@ -110,7 +109,6 @@ For the comparative study, the followings were done as experimental controls:
 * Power supply to laptop was switched on.
 * Before every run of the Python codes in the jupyter notebook, the kernel was re-started and the outputs were cleared.
 * While running the Python codes, no other programmes were accessed.
-<br>
 <br>
 
 Answer: Here are the answers to the question above:
@@ -122,13 +120,13 @@ Answer: Here are the answers to the question above:
 These were the behaviours observed:
 * For larger tensor size alone and deeper model alone, the difference in training duration change between CPU and GPU are not significantly different.
 
-<img src='training_duration_2.png' height="250"> &nbsp;&nbsp;&nbsp; <img src='training_duration_3.png' height="250">
+<img src='training_duration_2.png' height="275"> &nbsp; <img src='training_duration_3.png' height="275">
 <br>
 <br>
 
 * However, the difference in training duration change is significant for larger node size interacting with deeper model.
 
-<img src='training_duration_4.png' height="250"> &nbsp;&nbsp;&nbsp; <img src='training_duration_5.png' height="250">
+<img src='training_duration_4.png' height="275"> &nbsp; <img src='training_duration_5.png' height="275">
 <br>
 <br>
 
@@ -161,7 +159,6 @@ Here, you will learn why a hidden layer is coded as follows:
 
 <img src='hidden_layer_definition.PNG'>
 <br>
-<br>
 
 TRAINING WITH PYTORCH:  
 https://pytorch.org/tutorials/beginner/introyt/trainingyt.html
@@ -174,10 +171,14 @@ Here, you will learn about the training loop:
 <br>
 <br>
 Hope you find this work useful. Feel free to connect with me in LinkedIn. Have a good day!
+<br>
+<br>
 
 18 Dec 2023
+<br>
+<br>
 
-John Wong &nbsp;&nbsp; [<img src='linkedin.png' height="40"/>](https://www.linkedin.com/in/wongchikeongjohn)
+John Wong &nbsp;&nbsp; <img src='linkedin.png' height="40">(https://www.linkedin.com/in/wongchikeongjohn)
 <br>
 
 **[BACK TO MAIN PAGE ==>](https://github.com/johnwck/my_da_ds_work/tree/master)**
