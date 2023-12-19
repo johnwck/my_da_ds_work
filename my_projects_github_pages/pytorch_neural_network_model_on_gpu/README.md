@@ -28,7 +28,6 @@ PyTorch can be installed from this Nvidia's website >>> https://pytorch.org/get-
 <br>
 
 Select the appropriate options for you.
-
 For me, I have selected these options:
 
 <img src='pytorch_installation.png' height="300">
@@ -41,17 +40,20 @@ In the box "Run this Command",
 * Paste the command string.
 * Press ENTER to install PyTorch.
 <br>
+<br>
 
 Things to note:
 * From this Nvidia's website >>> https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#install-windows, you will be taught to install (a) Nvidia graphic driver, (b) CUDA Toolkit, and (c) cuDNN.
 * From this PyTorch's forum >>> https://discuss.pytorch.org/t/how-to-install-cudnn-for-pytorch-2-1-0-with-cuda-12-1/179864, you will learn that (b) and (c) will be installed together with PyTorch in the steps above. Hence you do not need to follow the instructions from the Nvidia's website to install them.
 * However, (a) must be installed first. You can refer to this Nvidia's website >>> https://nvidia.custhelp.com/app/answers/detail/a_id/5021/kw/check%20graphic%20driver%20installation. This step may not be necessary as it should have been done on the laptop you purchased.
 <br>
+<br>
 
 ## <u>**Check Installation of PyTorch**</u>
 <br>
 
 You can use these Python codes to check that PyTorch has been installed correctly:
+
 <img src='check_gpu.PNG' height="350">
 <br>
 <br>
@@ -68,6 +70,7 @@ You should go through the following tutorials from this Nvidia's website >>> htt
 * Tensors.
 * Datasets and DataLoaders.
 * Build Model.
+<br>
 <br>
 
 ## <u>**Tensor**</u>
@@ -101,6 +104,7 @@ The computational load placed on the CPU or GPU can be affected by the following
 * Number of hidden layers (tensor operations).
 * Size of Random Access Memory (RAM) of CPU (32 Gb in my case) and GPU (6 Gb in my case).
 <br>
+<br>
 
 For the comparative study, the followings were done as experimental controls:
 * Random seeds for random numbers and PyTorch algorithms were fixed.
@@ -109,6 +113,7 @@ For the comparative study, the followings were done as experimental controls:
 * Power supply to laptop was switched on.
 * Before every run of the Python codes in the jupyter notebook, the kernel was re-started and the outputs were cleared.
 * While running the Python codes, no other programmes were accessed.
+<br>
 <br>
 
 Answer: Here are the answers to the question above:
@@ -136,8 +141,6 @@ These were the behaviours observed:
 In conclusion, if a NN model is deep and has many nodes at each hidden layer, it can be trained faster on the GPU compared to on the CPU.
 <br>
 <br>
-<br>
-<br>
 
 That is, folks! Do visit the references below to learn more from the others:
 <br>
@@ -159,6 +162,7 @@ http://neuralnetworksanddeeplearning.com/chap1.html
 Here, you will learn why a hidden layer is coded as follows:
 
 <img src='hidden_layer_definition.PNG'>
+<br>
 <br>
 
 TRAINING WITH PYTORCH:  

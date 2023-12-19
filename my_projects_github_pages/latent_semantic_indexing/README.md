@@ -44,6 +44,7 @@ Machine learning models can only accept numbers, not words, as input. Hence word
 * Another dimension of the vector is the count of the occurrences of the word.
 * Together, they form a vector of numbers (ID, count of occurrences).
 <br>
+<br>
 
 The conversion from words to vectors of numbers is known as embedding.
 <br>
@@ -78,11 +79,13 @@ You can now open ***step_01_exercise_bow.ipynb*** to follow along. This Jupyter 
 <br>
 
 I have synthesized data in a Comma-Separated Values (CSV) file.
+
 <img src='step_01a.PNG'>
 <br>
 <br>
 
 In data cleaning, I have removed non-alphanumeric characters and changed all characters to lower case.
+
 <img src='step_01b.PNG'>
 <br>
 <br>
@@ -103,6 +106,7 @@ A document can be a conversation, feedback, review, book, or article. A token ca
 <br>
 
 From documents of individual words, I have converted them into lists of tokens. However, I have excluded stopwords from the lists of tokens. Note that the tokens are still words, not numbers, yet.
+
 <img src='step_01c.PNG'>
 <br>
 <br>
@@ -115,17 +119,28 @@ In this step, I will work on the "count of occurrences" dimension of the vector.
 <br>
 
 If a token appears only once in all the documents, I will remove it from the training of the model.
+
 <img src='step_01d.PNG'>
+<br>
 <br>
 
 The "dictionary" method will be used to track the ID of the remaining tokens.
+
 <img src='step_01e.PNG'>
+<br>
+<br>
 
 The "doc2bow" method will be used to convert the remaining tokens to the Bag of Words (BOW) vectors.
+
 <img src='step_01f.PNG'>
+<br>
+<br>
 
 The BOW vectors will now contain the token ID and count of its occurrences.
+
 <img src='step_01g.PNG'>
+<br>
+<br>
 
 At this stage, input embedding is completed.
 <br>
@@ -135,16 +150,23 @@ At this stage, input embedding is completed.
 <br>
 
 I have used the following code to extract the different number of topics.
+
 <img src='step_01h.PNG'>
+<br>
 <br>
 * num_topics = Set the number of topics to extract.
 * random_seed = Set a number to have repeatable and reproducible results.
 * power_iters = Set a higher number to get higher accuracy.
 <br>
+<br>
 
 I have used the following code to determine the coherence score on the different number of topics extracted.
+
 <img src='step_01i.PNG'>
+<br>
+<br>
 * coherence = "u_mass" is used. It will changed with the number of topics extracted.
+<br>
 <br>
 
 You can now open ***step_02_real_bow.ipynb*** to follow along. This Jupyter Notebook contains real data running through the same steps as above. You will notice a significant difference in the coherence score with three topics extracted.
@@ -163,7 +185,9 @@ You can now open ***step_03_real_bow_topic_identification.ipynb*** to follow alo
 <br>
 
 Essentially, I plotted the coherence score versus the number of topics extracted. The number of topics corresponding to the highest coherence score should be the optimal number of topics to be extracted. I have also printed out the topics to check them qualitatively.
+
 <img src='step_03.png'>
+<br>
 <br>
 
 Getting the optimal number of topics to be extracted is equivalent to training the model to classify feedback.
@@ -178,9 +202,8 @@ Now that the model is trained, it will be used to classify future feedback to th
 <br>
 
 You can now open ***step_04_real_bow_topic_classification.ipynb*** to follow along. This Jupyter Notebook contains the method to train the model with three topics to classify feedback to be received in the future.
+
 <img src='step_04.PNG'>
-<br>
-<br>
 <br>
 <br>
 
@@ -191,17 +214,22 @@ That is, folks! There are many things I may not be able to explain better than t
 Core concepts:  
 https://radimrehurek.com/gensim/auto_examples/core/run_core_concepts.html#sphx-glr-auto-examples-core-run-core-concepts-py
 <br>
+<br>
 
 Corpora and Vector Spaces:  
 https://radimrehurek.com/gensim/auto_examples/core/run_corpora_and_vector_spaces.html
+<br>
 <br>
 
 Topics and Transformations:  
 https://radimrehurek.com/gensim/auto_examples/core/run_topics_and_transformations.html
 <br>
+<br>
 
 API Reference:  
 https://radimrehurek.com/gensim/apiref.html
+<br>
+<br>
 
 Topic Analysis: The Ultimate Guide:  
 https://monkeylearn.com/topic-analysis/
