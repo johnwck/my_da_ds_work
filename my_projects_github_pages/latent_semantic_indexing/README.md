@@ -105,6 +105,7 @@ A document can be a conversation, feedback, review, book, or article. A token ca
 From documents of individual words, I have converted them into lists of tokens. However, I have excluded stopwords from the lists of tokens. Note that the tokens are still words, not numbers, yet.
 <img src='step_01c.PNG'>
 <br>
+<br>
 
 #### <u>**Step 3: Bag of Words Vector**</u>
 <br>
