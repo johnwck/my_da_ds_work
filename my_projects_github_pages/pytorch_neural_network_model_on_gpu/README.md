@@ -141,6 +141,7 @@ In conclusion, if a NN model is deep and has many nodes at each hidden layer, it
 
 That is, folks! Do visit the references below to learn more from the others:
 <br>
+<br>
 
 Develop Your First Neural Network with PyTorch, Step by Step:  
 https://machinelearningmastery.com/develop-your-first-neural-network-with-pytorch-step-by-step/
@@ -178,7 +179,8 @@ Hope you find this work useful. Feel free to connect with me in LinkedIn. Have a
 <br>
 <br>
 
-John Wong &nbsp;&nbsp; <img src='linkedin.png' height="40">(https://www.linkedin.com/in/wongchikeongjohn)
+John Wong &nbsp;&nbsp; [<img src='linkedin.png' height="40">](https://www.linkedin.com/in/wongchikeongjohn)
+<br>
 <br>
 
 **[BACK TO MAIN PAGE ==>](https://github.com/johnwck/my_da_ds_work/tree/master)**
