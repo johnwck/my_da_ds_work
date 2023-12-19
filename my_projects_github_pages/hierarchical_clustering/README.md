@@ -1,4 +1,4 @@
-# **Data Science in Quality Improvement**
+# **Data Science in Quality Improvement (Hierarchical Clustering)**
 <br>
 
 ## <u>**Quality**</u>
@@ -121,3 +121,7 @@ Hope you find this exercise useful. Feel free to connect with me in LinkedIn. Ha
 16 Nov 2023
 
 John Wong &nbsp;&nbsp; [<img src='linkedin.png' height="40"/>](https://www.linkedin.com/in/wongchikeongjohn)
+<br>
+
+**[BACK TO MAIN PAGE ==>](https://github.com/johnwck/my_da_ds_work/tree/master)**
+<br>

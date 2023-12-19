@@ -1,4 +1,4 @@
-# **Identify Topics in Documents and Classify Documents to Topics Identified**
+# **Identify Topics in Documents and Classify Documents to Topics Identified (Latent Semantic Indexing)**
 <br>
 
 ## <u>**Context**</u>
@@ -173,3 +173,7 @@ Hope you find this work useful. Feel free to connect with me in LinkedIn. Have a
 10 Dec 2023
 
 John Wong &nbsp;&nbsp; [<img src='linkedin.png' height="40"/>](https://www.linkedin.com/in/wongchikeongjohn)
+<br>
+
+**[BACK TO MAIN PAGE ==>](https://github.com/johnwck/my_da_ds_work/tree/master)**
+<br>

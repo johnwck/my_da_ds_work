@@ -35,26 +35,26 @@ The second quote above reminded me not to put the cart before the horse. Before 
 ## <u>**About My Works**</u>
 <br>
 
-[Data Operations](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/data_operations)
+[Data Operations (SQL)](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/data_operations)
 * Create tables and fields in database
 * Insert data
 * Insert new data and update existing data
 <br>
 
-[Data Science in Quality Improvement](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/hierarchical_clustering)
+[Data Science in Quality Improvement (Hierarchical Clustering)](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/hierarchical_clustering)
 * Definition of quality
 * How to do Quality Improvement
 * Use hierarchical clustering to find root cause in Quality Improvement work
 <br>
 
-[Identify Topics in Documents and Classify Documents to Topics Identified](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/latent_semantic_indexing)
+[Identify Topics in Documents and Classify Documents to Topics Identified (Latent Semantic Indexing)](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/latent_semantic_indexing)
 * Convert documents to tokens and then to Bag of Words vector - Input embedding
 * Latent Semantic Indexing and Coherence Score
 * Topics identification in current documents
 * Classify future documents to topics identified
 <br>
 
-[Exploration on Behaviour of Neural Network Model using PyTorch on Graphics Processing Unit](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/pytorch_neural_network_model_on_gpu)
+[Exploration of Neural Network Model using PyTorch on Graphics Processing Unit](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/pytorch_neural_network_model_on_gpu)
 * Installing and testing PyTorch
 * From Pandas dataframe to PyTorch tensor
 * Pushing tensor and Neural Network (NN) model to GPU
