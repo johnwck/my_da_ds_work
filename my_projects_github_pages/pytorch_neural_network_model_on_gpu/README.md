@@ -171,6 +171,7 @@ Here, you will learn about the training loop:
 <br>
 <br>
 <br>
+
 Hope you find this work useful. Feel free to connect with me in LinkedIn. Have a good day!
 <br>
 <br>
