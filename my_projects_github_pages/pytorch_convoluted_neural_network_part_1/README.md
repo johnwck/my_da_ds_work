@@ -20,7 +20,7 @@ In Part 1, I will provide the codes and their outputs on the above to give you a
 <br>
 <br>
 
-## <u>**Image: Colour/Grayscale, Size, Channel**</u>
+## <u>**Image: Colour, Grayscale, Size, Channel, and Tensor Form**</u>
 <br>
 
 You may open ***step_01*** jupyter notebook to follow along.
@@ -53,7 +53,11 @@ For a grayscale image, it will have only 1 channel as shown in Step 4b.
 
 In Step 4c, I have shown another tensor form where the values are from 0 to 255 instead of from 0 to 1. Sometimes in files that store tensors of images, the values could be from 0 to 255 instead of from 0 to 1. Hence, this step is shown for awareness purpose. Image can be plotted out regardless of whether the values are from 0 to 255 or from 0 to 1. However, you may have to correct the shape of the tensor.
 
-<img src='image_output_colour.PNG' height="475"> &nbsp; <img src='image_output_grayscale.PNG' height="275">
+Use permute to reshape >>> <img src='image_output_colour.PNG' height="500">
+<br>
+<br>
+
+Use unsqueeze to reshape >>> <img src='image_output_grayscale.PNG' height="300">
 <br>
 <br>
 
@@ -92,7 +96,6 @@ When you see the values (also known as weights) inside the filter, do not be sur
 <br>
 <br>
 
-
 ## <u>**Max Pooling**</u>
 <br>
 
@@ -114,21 +117,21 @@ In Step 11, the objective of Flattening is to enable the output from Max Pooling
 ## <u>**Fully Connected Layer**</u>
 <br>
 
-Finally, in Step 12, the Fully Connected Layer is an Artificial Neural Network (ANN) with two layers. The first layer accepts inputs from Flattening. To produce the output to the second layer, Linear Transformation (sum of input multiplied by weights with a added Bias) will be done in the nodes before passing them through ReLU to become the output to the second layer.
+Finally, in Step 12, the Fully Connected Layer is an Artificial Neural Network (ANN) with two layers. The first layer accepts inputs from Flattening. To produce the output to the second layer, Linear Transformation (sum of input multiplied by weights with an added Bias) will be done in the nodes before passing them through ReLU to become the output to the second layer.
 
-<img src='fully_connected_1.PNG' height="275"> &nbsp;&nbsp;&nbsp; <img src='fully_connected_2.PNG' height="275">
+<img src='fully_connected_1.PNG' height="300"> &nbsp;&nbsp;&nbsp; <img src='fully_connected_2.PNG' height="300">
 <br>
 <br>
 
 If the objective is to do a binary image classification (boat or not boat), Linear Transformation will be done, followed by Sigmoid as shown in Step 13a.
 
-<img src='fully_connected_3.PNG' height="275">
+<img src='fully_connected_3.PNG' height="300">
 <br>
 <br>
 
 If the objective is to do a multiple image classification (boat, plane, or house), Linear Transformation will be done only as shown in Step 13b.
 
-<img src='fully_connected_4.PNG' height="275">
+<img src='fully_connected_4.PNG' height="300">
 <br>
 <br>
 

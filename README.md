@@ -74,5 +74,5 @@ The second quote above reminded me not to put the cart before the horse. Before 
 Hope you find these works useful. Feel free to connect with me in LinkedIn. Have a good day!
 <br>
 
-John Wong &nbsp;&nbsp; [<img src='linkedin.PNG' height="40">](https://www.linkedin.com/in/wongchikeongjohn)
+John Wong &nbsp;&nbsp; [<img src='linkedin.png' height="40">](https://www.linkedin.com/in/wongchikeongjohn)
 <br>
