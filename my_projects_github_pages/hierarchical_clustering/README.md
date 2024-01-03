@@ -163,7 +163,7 @@ Hope you find this work useful. Feel free to connect with me in LinkedIn. Have a
 <br>
 <br>
 
-John Wong &nbsp;&nbsp; [<img src='linkedin.PNG' height="40">](https://www.linkedin.com/in/wongchikeongjohn)
+John Wong &nbsp;&nbsp; [<img src='linkedin.png' height="40">](https://www.linkedin.com/in/wongchikeongjohn)
 <br>
 <br>
 
