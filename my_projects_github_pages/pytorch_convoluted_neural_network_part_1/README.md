@@ -119,19 +119,19 @@ In Step 11, the objective of Flattening is to enable the output from Max Pooling
 
 Finally, in Step 12, the Fully Connected Layer is an Artificial Neural Network (ANN) with two layers. The first layer accepts inputs from Flattening. To produce the output to the second layer, Linear Transformation (sum of input multiplied by weights with an added Bias) will be done in the nodes before passing them through ReLU to become the output to the second layer.
 
-<img src='fully_connected_1.PNG' height="300"> &nbsp;&nbsp;&nbsp; <img src='fully_connected_2.PNG' height="300">
+<img src='fully_connected_1.PNG' height="325"> &nbsp;&nbsp;&nbsp; <img src='fully_connected_2.PNG' height="325">
 <br>
 <br>
 
 If the objective is to do a binary image classification (boat or not boat), Linear Transformation will be done, followed by Sigmoid as shown in Step 13a.
 
-<img src='fully_connected_3.PNG' height="300">
+<img src='fully_connected_3.PNG' height="325">
 <br>
 <br>
 
 If the objective is to do a multiple image classification (boat, plane, or house), Linear Transformation will be done only as shown in Step 13b.
 
-<img src='fully_connected_4.PNG' height="300">
+<img src='fully_connected_4.PNG' height="325">
 <br>
 <br>
 
