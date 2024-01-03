@@ -61,6 +61,12 @@ The second quote above reminded me not to put the cart before the horse. Before 
 * Pushing tensor and Neural Network (NN) model to GPU
 * Duration of training NN model on GPU and CPU
 <br>
+
+[Convolutional Neural Network using PyTorch - Part 1 of 2](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/pytorch_convoluted_neural_network_part_1)
+* Convolution, Rectified Linear Unit Function, Max Pooling, Flattening, Fully Connected Layer, Linear Transformation, Sigmoid
+* Images - Colour, Grayscale, Size, Channel, Tensor Form
+* Pickle File
+<br>
 <br>
 <br>
 <br>
@@ -68,5 +74,5 @@ The second quote above reminded me not to put the cart before the horse. Before 
 Hope you find these works useful. Feel free to connect with me in LinkedIn. Have a good day!
 <br>
 
-John Wong &nbsp;&nbsp; [<img src='linkedin.png' height="40">](https://www.linkedin.com/in/wongchikeongjohn)
+John Wong &nbsp;&nbsp; [<img src='linkedin.PNG' height="40">](https://www.linkedin.com/in/wongchikeongjohn)
 <br>
