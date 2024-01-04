@@ -62,7 +62,7 @@ The second quote above reminded me not to put the cart before the horse. Before 
 * Duration of training NN model on GPU and CPU
 <br>
 
-[Convolutional Neural Network using PyTorch - Part 1 of 2](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/pytorch_convoluted_neural_network_part_1)
+[Convolutional Neural Network using PyTorch - Part 1 of 2](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/pytorch_convolutional_neural_network_part_1)
 * Convolution, Rectified Linear Unit Function, Max Pooling, Flattening, Fully Connected Layer, Linear Transformation, Sigmoid
 * Images - Colour, Grayscale, Size, Channel, Tensor Form
 * Pickle File
