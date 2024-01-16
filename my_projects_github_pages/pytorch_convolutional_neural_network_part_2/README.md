@@ -34,7 +34,7 @@ Meanwhile, the images are taken from the CIFAR-10 dataset. You can get the follo
 
 Another method of downloading the dataset is to execute Step 2 of jupyter notebook ***step_03a*** in Part 1 of 2:
 
-<img src='cifar_10_download.PNG' height="300">
+<img src='cifar_10_download.PNG' height="350">
 <br>
 <br>
 
@@ -52,6 +52,7 @@ There are many online examples done on this dataset by CNN. Some use less comple
 Less complex
 
 https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
+
 https://www.kaggle.com/code/shadabhussain/cifar-10-cnn-using-pytorch
 <br>
 <br>
@@ -163,7 +164,7 @@ The range (maximum minus minimum) of classification accuracy between different s
 
 The range of classification accuracy combining shuffle_value=NONE and shuffle_value=42 can be large and have high variability as shown below:
 
-<img src='accuracy_range_2.png' height="300">
+<img src='accuracy_range_2.png' height="350">
 <br>
 <br>
 <br>
@@ -185,7 +186,7 @@ There are so many seed values and shuffle values. With limited time, how do one 
 
 One can attempt to experiment using more Fully Connected Layers in the CNN model. The range of classification accuracy can be smaller and have lower variability compared to fewer Fully Connected Layers used as shown below.
 
-<img src='accuracy_range_3.png' height="300">
+<img src='accuracy_range_3.png' height="350">
 <br>
 <br>
 <br>
