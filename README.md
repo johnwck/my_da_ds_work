@@ -67,6 +67,14 @@ The second quote above reminded me not to put the cart before the horse. Before 
 * Images - Colour, Grayscale, Size, Channel, Tensor Form
 * Pickle File
 <br>
+
+[Convolutional Neural Network using PyTorch - Part 2 of 2](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/pytorch_convolutional_neural_network_part_2)
+* CIFAR-10 images
+* Batch, Epoch, Feedforward, Backpropagation
+* Seed value, shuffle value
+* Range of classification accuracy, their values and variability
+* Load, save, and print model
+<br>
 <br>
 <br>
 <br>
