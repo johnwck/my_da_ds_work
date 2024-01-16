@@ -34,7 +34,7 @@ Meanwhile, the images are taken from the CIFAR-10 dataset. You can get the follo
 
 Another method of downloading the dataset is to execute Step 2 of jupyter notebook ***step_03a*** in Part 1 of 2:
 
-<img src='cifar_10_download.PNG' height="350">
+<img src='cifar_10_download.PNG' height="400">
 <br>
 <br>
 
