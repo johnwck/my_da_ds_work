@@ -90,7 +90,7 @@ Updating data in the database can only be done with a PRIMARY KEY specified. Thi
 <br>
 <br>
 
-Hope you find this work useful. Feel free to connect with me in LinkedIn. Have a good day!
+That's it, folks! Hope you find this work useful. Feel free to connect with me in LinkedIn. Have a good day!
 <br>
 <br>
 
