@@ -149,7 +149,7 @@ You can now refer to ***hierarchical_clustering.ipynb*** for the codes and steps
 <br>
 <br>
 
-That is, folks! Hope now you can see that data science methods can be applied in quality improvement work.
+That's it, folks! Hope now you can see that data science methods can be applied in quality improvement work.
 <br>
 <br>
 <br>

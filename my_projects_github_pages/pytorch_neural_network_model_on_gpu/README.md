@@ -142,7 +142,7 @@ In conclusion, if a NN model is deep and has many nodes at each hidden layer, it
 <br>
 <br>
 
-That is, folks! Do visit the references below to learn more from the others:
+That's it, folks! Do visit the references below to learn more from the others:
 <br>
 <br>
 

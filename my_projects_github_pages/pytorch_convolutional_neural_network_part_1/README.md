@@ -135,7 +135,6 @@ If the objective is to do a multiple image classification (boat, plane, or house
 <br>
 <br>
 
-
 ## <u>**Pickle File**</u>
 <br>
 
@@ -161,8 +160,7 @@ Recall that the tensor form of an image should be (1,X,X) or (3,X,X). The lists 
 <br>
 <br>
 
-
-That is, folks! As mentioned above, here are some references which you can read more about for the detailed explanations:
+That's it, folks! As mentioned above, here are some references which you can read more about for the detailed explanations:
 <br>
 <br>
 

@@ -207,7 +207,7 @@ You can now open ***step_04_real_bow_topic_classification.ipynb*** to follow alo
 <br>
 <br>
 
-That is, folks! There are many things I may not be able to explain better than the developers. For that, I will have to refer you to the followings:
+That's it, folks! There are many things I may not be able to explain better than the developers. For that, I will have to refer you to the followings:
 <br>
 <br>
 
