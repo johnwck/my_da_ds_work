@@ -50,17 +50,20 @@ There are many online examples done on this dataset by CNN. Some use less comple
 <br>
 
 Less complex
+
 https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
 https://www.kaggle.com/code/shadabhussain/cifar-10-cnn-using-pytorch
 <br>
 <br>
 
 More complex
+
 https://github.com/NvsYashwanth/CIFAR-10-Image-Classification/blob/master/cifar10.ipynb
 <br>
 <br>
 
 Image augmentation
+
 https://debuggercafe.com/image-augmentation-using-pytorch-and-albumentations/
 <br>
 <br>
@@ -78,11 +81,11 @@ When all the batches are used once for training, an epoch is said to have comple
 <br>
 <br>
 
-At the end of an epoch, the total error will be recorded. This total error should reduce over the epochs. If the total error in the current epoch is not significantly different from the previous epoch, training can be stopped. The performance of the model can now be evaluated by using it to classify images on the testing dataset.
+At the end of each epoch, the total error will be recorded. This total error should reduce over the epochs. If the total error in the current epoch is not significantly different from the previous epoch, training can be stopped. The performance of the model can now be evaluated by using it to classify images on the testing dataset.
 <br>
 <br>
 
-<img src='epoch_batch_feedforward_backpropagation.PNG' height="300">
+<img src='epoch_batch_feedforward_backpropagation.png' height="300">
 <br>
 <br>
 
@@ -97,7 +100,7 @@ For each base model, I have used the followings for training:
 <br>
 <br>
 
-Base model 1 (jupyter notebooks: step_01_base_11 and step_02_base_11):
+Base model 1 (jupyter notebooks: ***step_01_base_11*** and ***step_02_base_11***):
 
 | Design | Convolution | Input >>> Output | Fully Connected | Input >>> Output | Classification |
 |---|---|---|---|---|---|
@@ -109,7 +112,7 @@ Base model 1 (jupyter notebooks: step_01_base_11 and step_02_base_11):
 <br>
 <br>
 
-Base model 2 (jupyter notebooks: step_01_base_12 and step_02_base_12):
+Base model 2 (jupyter notebooks: ***step_01_base_12*** and ***step_02_base_12***):
 
 | Design | Convolution | Input >>> Output | Fully Connected | Input >>> Output | Classification |
 |---|---|---|---|---|---|
@@ -121,7 +124,7 @@ Base model 2 (jupyter notebooks: step_01_base_12 and step_02_base_12):
 <br>
 <br>
 
-Base model 3 (jupyter notebooks: step_01_base_21 and step_02_base_21):
+Base model 3 (jupyter notebooks: ***step_01_base_21*** and ***step_02_base_21***):
 
 | Design | Convolution | Input >>> Output | Fully Connected | Input >>> Output | Classification |
 |---|---|---|---|---|---|
@@ -134,7 +137,7 @@ Base model 3 (jupyter notebooks: step_01_base_21 and step_02_base_21):
 <br>
 
 
-Base model 4 (jupyter notebooks: step_01_base_22 and step_02_base_22):
+Base model 4 (jupyter notebooks: ***step_01_base_22*** and ***step_02_base_22***):
 
 | Design | Convolution | Input >>> Output | Fully Connected | Input >>> Output | Classification |
 |---|---|---|---|---|---|
@@ -150,7 +153,7 @@ Base model 4 (jupyter notebooks: step_01_base_22 and step_02_base_22):
 
 The range (maximum minus minimum) of classification accuracy between different seed values can be large and have high variability as shown below:
 
-<img src='accuracy_range_1.png' height="300">
+<img src='accuracy_range_1.png' height="350">
 <br>
 <br>
 <br>
@@ -160,7 +163,7 @@ The range (maximum minus minimum) of classification accuracy between different s
 
 The range of classification accuracy combining shuffle_value=NONE and shuffle_value=42 can be large and have high variability as shown below:
 
-<img src='accuracy_range_2.PNG' height="300">
+<img src='accuracy_range_2.png' height="300">
 <br>
 <br>
 <br>
@@ -168,13 +171,13 @@ The range of classification accuracy combining shuffle_value=NONE and shuffle_va
 
 <u>**Implication of discoveries**</u>
 
-To have a good gauge of the performance of a CNN model, it is important to train it with different seed values and different shuffle values.
+To have a good gauge of the performance of a CNN model in production, it is important to train it with different seed values and different shuffle values.
 <br>
 <br>
 
 <u>**Question**</u>
 
-There are so many seed values and shuffle values. With limited time, how do one find the final values to build a CNN model that can give the high classification accuracy?
+There are so many seed values and shuffle values. With limited time, how do one find the final values to build a CNN model that can give the highest classification accuracy?
 <br>
 <br>
 
@@ -182,7 +185,7 @@ There are so many seed values and shuffle values. With limited time, how do one 
 
 One can attempt to experiment using more Fully Connected Layers in the CNN model. The range of classification accuracy can be smaller and have lower variability compared to fewer Fully Connected Layers used as shown below.
 
-<img src='accuracy_range_3.PNG' height="300">
+<img src='accuracy_range_3.png' height="300">
 <br>
 <br>
 <br>
