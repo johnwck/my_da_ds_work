@@ -11,6 +11,7 @@ From Part 1 of 2, you will have learned a high-level view of the followings in a
 * Flattening
 * Fully Connected Layer
 * Linear Transformation
+* Activation Function
 * Colour and grayscale of image
 * Channels of image
 * Sizes of image
@@ -19,7 +20,7 @@ From Part 1 of 2, you will have learned a high-level view of the followings in a
 <br>
 <br>
 
-In Part 2 of 2, I had initially wanted to dive straight into the classification of images by CNN using PyTorch. While training and testing my CNN models, however, I realised that there can be significant differences in their performance (classification accuracy). I shall elaborate on my discoveries below.
+In Part 2 of 2, I had initially wanted to dive straight into the classification of images by CNN using PyTorch. While training and testing my CNN models, however, I found out that there can be significant differences in the performance (classification accuracy) of the same model with different conditions. I shall explore on this discovery below as my objective.
 <br>
 <br>
 
@@ -45,7 +46,7 @@ This is because the datasets have been incorporated into "torchvision.datasets" 
 ## <u>**What others have done?**</u>
 <br>
 
-There are many online examples done on this dataset by CNN. Some use less complex model with the usual Conv2d, ReLU, and MaxPool2d. Others use more complex model with BatchNorm2d and Dropout. Image Augmentation (horizontal flip, vertical flip, and rotation) can also be used with less and more complex models.
+There are many online examples done on this dataset by CNN. Some use less complex model with the usual Conv2d, ReLU, and MaxPool2d. Others use more complex model with BatchNorm2d and Dropout added. Image Augmentation (horizontal flip, vertical flip, and rotation) can also be used with less and more complex models.
 <br>
 <br>
 
@@ -152,7 +153,7 @@ Base model 4 (jupyter notebooks: ***step_01_base_22*** and ***step_02_base_22***
 
 <u>**First discovery**</u>
 
-The range (maximum minus minimum) of classification accuracy between different seed values can be large and have high variability as shown below:
+The range (maximum minus minimum) of classification accuracy between different seed values and shuffle values can be large and have high variability as shown below:
 
 <img src='accuracy_range_1.png' height="350">
 <br>
@@ -162,7 +163,7 @@ The range (maximum minus minimum) of classification accuracy between different s
 
 <u>**Second discovery**</u>
 
-The range of classification accuracy combining shuffle_value=NONE and shuffle_value=42 can be large and have high variability as shown below:
+The range of classification accuracy between different seed values can be large and have high variability as shown below:
 
 <img src='accuracy_range_2.png' height="350">
 <br>
@@ -172,19 +173,19 @@ The range of classification accuracy combining shuffle_value=NONE and shuffle_va
 
 <u>**Implication of discoveries**</u>
 
-To have a good gauge of the performance of a CNN model in production, it is important to train it with different seed values and different shuffle values.
+To have a true average performance of a CNN model in production, it is important to train with different seed values and shuffle values.
 <br>
 <br>
 
 <u>**Question**</u>
 
-There are so many seed values and shuffle values. With limited time, how do one find the final values to build a CNN model that can give the highest classification accuracy?
+With so many seed values, shuffle values, and limited time, how do one find the final values to train a CNN model that can give the highest classification accuracy consistently?
 <br>
 <br>
 
 <u>**Possible answer**</u>
 
-One can attempt to experiment using more Fully Connected Layers in the CNN model. The range of classification accuracy can be smaller and have lower variability compared to fewer Fully Connected Layers used as shown below.
+One can attempt to experiment with using more Fully Connected Layers. The range of classification accuracy can be smaller and have lower variability compared to fewer Fully Connected Layers used as shown below.
 
 <img src='accuracy_range_3.png' height="350">
 <br>
@@ -204,7 +205,7 @@ That's it, folks! Hope you find this work useful. Feel free to connect with me i
 <br>
 <br>
 
-16 Jan 2024
+17 Jan 2024
 <br>
 <br>
 
