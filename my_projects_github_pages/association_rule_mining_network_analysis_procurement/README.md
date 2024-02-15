@@ -1,4 +1,4 @@
-# **Irregularities in Procurement**
+# **Identify Irregularities in Procurement (Association Rule Mining and Network Analysis)**
 <br>
 
 ## <u>**Context**</u>
@@ -82,23 +82,21 @@ Since there is no labelled data for training or trained model for classification
 
 This is how favouritism in the procurement process will look like:
 
-<img src='irregularities_yes_1.png' height="350">
+<img src='irregularities_yes_1.png' height="500">
 <br>
 <br>
 
-<img src='irregularities_yes_2.png' height="350">
+<img src='irregularities_yes_2.png' height="500">
 <br>
 <br>
 
 This is how an ideal procurement process will look like:
 
-<img src='irregularities_no.png' height="350">
+<img src='irregularities_no.png' height="500">
 <br>
 <br>
 
-The Association Rule Mining method based on the Apriori Algorithm can be obtained from the Python package "MLxtend".
-
-Network Analysis method can be obtained from the Python package "NetworkX".
+The Association Rule Mining method based on the Apriori Algorithm can be obtained from the Python package "MLxtend". Network Analysis method can be obtained from the Python package "NetworkX".
 <br>
 <br>
 
@@ -121,13 +119,13 @@ You can refer to the Jupyter Notebooks analysis_irregularities*.ipynb for the co
 <br>
 <br>
 
-In Case 1 of Step 3, the irregularities for supplier_a and supplier_b cannot be detected through the community plot. However, the irregularities can be detected between requestor and supplier_a and supplier_b through the connection plot.
+In Case 1 of Step 3, the irregularities for supplier_a and supplier_b cannot be detected through the community plot. However, the irregularities can be detected between requestor and supplier_a and supplier_b through the connection plot as thicker lines.
 
-<img src='community_yes_1.png' height="350"> &nbsp; <img src='requestor_supplier_yes_1.png' height="350">
+<img src='community_yes_1.png' height="500"> &nbsp; <img src='requestor_supplier_yes_1.png' height="500">
 <br>
 <br>
 
-In Case 2 of Step 3, the irregularities for supplier_aaa and supplier_bbb can be detected through the community plot. At the same time, the irregularities can be detected between requestor and supplier_aaa and supplier_bbb through the connection plot.
+In Case 2 of Step 3, the irregularities for supplier_aaa and supplier_bbb can be detected through the community plot as separate community. At the same time, the irregularities can be detected between requestor and supplier_aaa and supplier_bbb through the connection plot as thicker lines.
 
 <img src='community_yes_2.png' height="350"> &nbsp; <img src='requestor_supplier_yes_2.png' height="350">
 <br>

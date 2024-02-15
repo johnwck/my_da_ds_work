@@ -75,6 +75,14 @@ The second quote above reminded me not to put the cart before the horse. Before 
 * Range of classification accuracy, their values and variability
 * Load, save, and print model
 <br>
+
+[Identify Irregularities in Procurement (Association Rule Mining and Network Analysis)](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/association_rule_mining_network_analysis_procurement)
+* Procurement process and its expected output
+* Irregularities in procurement process
+* Association Rule Mining
+* Network Analysis
+* Data synthesis
+<br>
 <br>
 <br>
 <br>
