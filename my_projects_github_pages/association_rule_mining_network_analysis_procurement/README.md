@@ -55,7 +55,7 @@ Step 3: Envision the objective.
 
 Imagine how favouritism in the procurement process will look like:
 * Case 1: Requestor keeps giving business to 1 or 2 suppliers in the system with a higher amount
-* Case 2: Requestor gives business to 1 or 2 suppliers not in the system with a higher amount
+* Case 2: Requestor keeps gives business to 1 or 2 suppliers not in the system with a higher amount
 <br>
 
 Step 4: Envision the methods to achieve the objective.
@@ -82,17 +82,17 @@ Since there is no labelled data for training or trained model for classification
 
 This is how favouritism in the procurement process will look like:
 
-<img src='irregularities_yes_1.png' height="550">
+<img src='irregularities_yes_1.png' height="600">
 <br>
 <br>
 
-<img src='irregularities_yes_2.png' height="550">
+<img src='irregularities_yes_2.png' height="600">
 <br>
 <br>
 
 This is how an ideal procurement process will look like:
 
-<img src='irregularities_no.png' height="550">
+<img src='irregularities_no.png' height="600">
 <br>
 <br>
 
@@ -119,15 +119,23 @@ You can refer to the Jupyter Notebooks analysis_irregularities*.ipynb for the co
 <br>
 <br>
 
-In Case 1 of Step 3, the irregularities for supplier_a and supplier_b cannot be detected through the community plot. However, the irregularities can be detected between requestor and supplier_a and supplier_b through the connection plot as thicker lines.
+In Case 1 of Step 3, the irregularities for supplier_a and supplier_b can be detected through the community plot as separate community (see yellow nodes). The irregularities can also be detected between requestor and supplier_a and supplier_b through the connection plot as thicker lines.
 
-<img src='community_yes_1.png' height="400"> &nbsp; <img src='requestor_supplier_yes_1.png' height="500">
+<img src='community_yes_1.png' height="550">
 <br>
 <br>
 
-In Case 2 of Step 3, the irregularities for supplier_aaa and supplier_bbb can be detected through the community plot as separate community. At the same time, the irregularities can be detected between requestor and supplier_aaa and supplier_bbb through the connection plot as thicker lines.
+<img src='requestor_supplier_yes_1.png' height="550">
+<br>
+<br>
 
-<img src='community_yes_2.png' height="400"> &nbsp; <img src='requestor_supplier_yes_2.png' height="500">
+In Case 2 of Step 3, the irregularities for supplier_aaa and supplier_bbb can be detected through the community plot as separate community (see yellow nodes). The irregularities can be detected between requestor and supplier_aaa and supplier_bbb through the connection plot as thicker lines.
+
+<img src='community_yes_2.png' height="550">
+<br>
+<br>
+
+<img src='requestor_supplier_yes_2.png' height="550">
 <br>
 <br>
 
