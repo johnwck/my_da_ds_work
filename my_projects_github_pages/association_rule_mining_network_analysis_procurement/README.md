@@ -172,7 +172,7 @@ It is important to:
 <br>
 <br>
 
-1) If there is no labelled data for training or trained model for classification, I <u>**PROPOSE**</u> synthesizing data that represents the ideal situation, follow by modelling them with existing data for comparison and decision >>> **WHAT DO YOU THINK OF THIS?**
+If there is no labelled data for training or trained model for classification, I <u>**PROPOSE**</u> synthesizing data that represents the ideal situation, follow by modelling them with existing data for comparison and decision >>> **WHAT DO YOU THINK OF THIS?**
 <br>
 <br>
 
