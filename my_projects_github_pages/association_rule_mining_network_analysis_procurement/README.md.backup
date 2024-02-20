@@ -155,7 +155,7 @@ If there are no irregularities, the community and connection plots will look lik
 
 Similarly, the Association Rule Mining can also indicate presence of irregularities with the support of the antecedent-consequent pair as follows:
 
-<img src='association_ideal_actual.png' height="350">
+<img src='association_ideal_actual.png' height="250">
 <br>
 <br>
 
