@@ -64,11 +64,11 @@ Step 4: Envision the methods to achieve the objective.
 * Look for high co-occurrence between suppliers
 * Look for high connection between requestor and suppliers
 
-Hence (a) Association Rule Mining and (b) Network Analysis are the most appropriate methods.
+Hence (a) Association Rule Mining and (b) Network Analysis are the most appropriate methods for Step 4.
 <br>
 <br>
 
-Step 5: Identify the data needed and their sources from Step 3 and Step 4.
+Step 5: Identify the data needed and their sources from Step 2, Step 3 and Step 4.
 
 * Names of requestor
 * Names of suppliers, vendors, contractors
@@ -153,7 +153,7 @@ If there are no irregularities, the community and connection plots will look lik
 <br>
 <br>
 
-Similarly, the Association Rule Mining can also indicate presence of irregularities with the support of the antecedent-consequent pair as follows:
+Similarly, the Association Rule Mining can also indicate presence of irregularities with the support of the antecedent-consequent pair by requestor as follows:
 
 <img src='association_ideal_actual.png' height="350">
 <br>
@@ -168,11 +168,11 @@ It is important to:
 * Understand the process
 * Envision the objective
 * Envision the methods to achieve the objective
-* Identify the data needed and their sources from Step 3 and Step 4
+* Identify the data needed and their sources
 <br>
 <br>
 
-If there is no labelled data for training or trained model for classification, I <u>**PROPOSE**</u> synthesizing data that represents the ideal situation, follow by combining them with existing data for modelling >>> **WHAT DO YOU THINK OF THIS?**
+1) If there is no labelled data for training or trained model for classification, I <u>**PROPOSE**</u> synthesizing data that represents the ideal situation, follow by modelling them with existing data for comparison and decision >>> **WHAT DO YOU THINK OF THIS?**
 <br>
 <br>
 
