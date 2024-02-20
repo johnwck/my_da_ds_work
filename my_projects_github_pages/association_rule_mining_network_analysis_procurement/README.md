@@ -17,7 +17,7 @@ Hence, the procurement process will involve:
 <br>
 <br>
 
-The expected output of the procurement process is that the cost, quality, availability, delivery, and financial transactions of goods and services are in accordance with the contract.
+The expected output of the procurement process is that the cost, quality, availability, delivery, and financial transactions of goods and services are in accordance with the contract. At the same time, suppliers, vendors, and contractors must be fairly treated.
 <br>
 <br>
 
@@ -55,7 +55,7 @@ Step 3: Envision the objective.
 
 Imagine how favouritism in the procurement process will look like:
 * Case 1: Requestor keeps giving business to 1 or 2 suppliers in the system with a higher amount
-* Case 2: Requestor keeps gives business to 1 or 2 suppliers not in the system with a higher amount
+* Case 2: Requestor keeps giving business to 1 or 2 suppliers not in the system with a higher amount
 <br>
 
 Step 4: Envision the methods to achieve the objective.
@@ -63,7 +63,7 @@ Step 4: Envision the methods to achieve the objective.
 * Look for high co-occurrence between suppliers
 * Look for high connection between requestor and suppliers
 
-Hence (a) Association Rule Mining and (b) Network Analysis can be the appropriate methods.
+Hence (a) Association Rule Mining and (b) Network Analysis are the most appropriate methods.
 <br>
 <br>
 
@@ -80,19 +80,19 @@ Step 5: Identify the data needed and their sources from Step 3 and Step 4.
 
 Since there is no labelled data for training or trained model for classification, synthesized data will be used.
 
-This is how favouritism in the procurement process will look like:
+This is how a procurement process without favouritism will look like:
+
+<img src='irregularities_no.png' height="600">
+<br>
+<br>
+
+This is how a procurement process with favouritism will look like:
 
 <img src='irregularities_yes_1.png' height="600">
 <br>
 <br>
 
 <img src='irregularities_yes_2.png' height="600">
-<br>
-<br>
-
-This is how an ideal procurement process will look like:
-
-<img src='irregularities_no.png' height="600">
 <br>
 <br>
 
@@ -105,7 +105,6 @@ Python packages:
 * MLxtend >>> https://rasbt.github.io/mlxtend/api_subpackages/mlxtend.frequent_patterns/
 * NetworkX >>> https://networkx.org/documentation/stable/tutorial.html
 <br>
-
 
 ## <u>**Results**</u>
 <br>
@@ -139,13 +138,44 @@ In Case 2 of Step 3, the irregularities for supplier_aaa and supplier_bbb can be
 <br>
 <br>
 
+If there are no irregularities, the community and connection plots will look like these:
+
+<img src='community_no.png' height="550">
+<br>
+<br>
+
+<img src='requestor_supplier_no.png' height="550">
+<br>
+<br>
+
+Similarly, the Association Rule Mining can also indicate presence of irregularities with the support of the antecedent-consequent pair as follows:
+
+<img src='association_ideal_actual.png' height="250">
+<br>
+<br>
+
+## <u>**Conclusion**</u>
+<br>
+
+It is important to:
+
+* Establish the objective
+* Understand the process
+* Envision the objective
+* Envision the methods to achieve the objective
+* Identify the data needed and their sources from Step 3 and Step 4
+
+If there is no labelled data for training or trained model for classification, I <u>**PROPOSE**</u> synthesizing data that represents the ideal situation, follow by combining them with existing data for modelling >>> **WHAT DO YOU THINK OF THIS?**
+<br>
+<br>
+
 That's it, folks! Hope you find this work useful. Feel free to connect with me in LinkedIn. Have a good day!
 <br>
 <br>
 <br>
 <br>
 
-15 Feb 2024
+20 Feb 2024
 <br>
 <br>
 
