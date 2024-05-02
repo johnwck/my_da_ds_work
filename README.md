@@ -83,6 +83,12 @@ The second quote above reminded me not to put the cart before the horse. Before 
 * Network Analysis
 * Data synthesis
 <br>
+
+[Impact of SQL Query Design and Index Usage on Data Extraction Duration](https://github.com/johnwck/my_da_ds_work/tree/master/my_projects_github_pages/sql_query_design_index_etl)
+* Desired output / outcome of ETL process
+* Drivers of desired output / outcome
+* SQL query design and index usage to achieve desired output / outcome
+<br>
 <br>
 <br>
 <br>
