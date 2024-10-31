@@ -1,0 +1,67 @@
+git remote -v
+* check if you are connected to github (remote)
+
+
+git branch
+* see all the branches in your PC (local)
+* you should only have "master"
+
+
+git branch my_new_branch
+* create a new branch called "my_new_branch"
+
+
+git branch
+* check that you have created "my_new_branch"
+
+
+git checkout my_new_branch
+* switch to "my_new_branch"
+
+
+git branch
+* check that you have switched to "my_new_branch"
+
+
+git add add_commit_push.txt
+* add file "add_commit_push.txt" to "my_new_branch"
+
+
+git commit -m "my first commit"
+* commit file "add_commit_push.txt" to "my_new_branch"
+
+
+git remote add origin https://...
+* do this step only for first time
+* after that ignore this step
+
+
+git push -u origin master
+* push file "add_commit_push.txt" to github (remote)
+
+
+git branch
+* check that you are in "my_new_branch"
+
+
+git checkout master
+* switch to "master"
+
+
+git branch
+* check that you are in "master"
+
+
+git branch -d "my_new_branch"
+* delete "my_new_branch"
+
+
+git branch
+* check that "my_new_branch" has been deleted
+
+
+git pull
+* ensure your PC (local) is the same as your github (remote)
+
+
+check for your file "add_commit_push.txt" in your PC
